@@ -121,8 +121,11 @@ function StreetNameGenerator() {
 
         <div className="mb-8 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
-            Generate authentic-sounding street names for your maps, stories, or world-building projects.
-            Choose from various styles and patterns to create the perfect street name.
+          Bring your worlds to life with authentic-sounding street names using our Street Name Generator! 
+          Perfect for maps, stories, or world-building projects, this tool lets you craft the ideal 
+          names for every setting. Choose from various styles and patterns to create names that feel 
+          real, memorable, and add depth to your fictional landscapes. Ideal for writers, 
+          game developers, and creators looking to add a touch of realism to their projects.
           </p>
         </div>
         

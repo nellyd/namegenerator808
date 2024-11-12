@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import Navbar from '../components/Navbar';
+import Navbar from '/components/Navbar';
 import { Wand2 } from 'lucide-react';
 
 // Define the generators data
@@ -50,30 +50,21 @@ export default function Home() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
             <Wand2 className="h-10 w-10 text-blue-600" />
-            NameGeno
+            About NameGeno
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover the perfect name for any purpose. Our collection of name generators 
-            helps you create unique names for characters, businesses, pets, and much more.
+          Welcome to NameGeno, your ultimate resource for generating unique, memorable names for every need. Whether you're a writer crafting characters, an entrepreneur building a brand, or just looking for fun ideas for pets, usernames, and more, we’ve got you covered!
+<br></br><br></br> 
+          At NameGeno, we believe that a name is more than just a label; it’s an identity. That’s why we’ve created a versatile tool that lets you explore endless possibilities across genres, themes, and styles. With our powerful generator, you can find the ideal name to bring any idea to life—from mystical lands and powerful superheroes to modern usernames and city names.
+            We offer customization options to help you refine your choices and ensure every name captures the essence of your vision.
+           <br></br> <br></br> 
+Our mission is to empower creators, whether they’re writers, gamers, business owners, or world-builders, with names that stand out. NameGeno was built with simplicity and creativity in mind, so you can quickly generate, browse, and select the names that resonate with you most.
+<br></br><br></br> 
+Thank you for choosing NameGeno to be part of your creative journey. We’re excited to help you find the perfect name, every time!
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-          {generators.map((generator) => (
-            <Link 
-              key={generator.path}
-              href={generator.path}
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200"
-            >
-              <h2 className="text-xl font-semibold text-blue-600 mb-2">
-                {generator.name}
-              </h2>
-              <p className="text-gray-600 text-sm">
-                {generator.description}
-              </p>
-            </Link>
-          ))}
-        </div>
+        
 
         {/* New styled content section */}
         <div className="max-w-4xl mx-auto px-4 space-y-12">

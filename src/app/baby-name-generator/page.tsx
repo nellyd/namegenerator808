@@ -138,7 +138,7 @@ export default function BabyNameGenerator() {
                 onChange={(e) => setFormData({...formData, meaning: e.target.value})}
               >
                 <option value="">Select meaning</option>
-                {meaningsList.map((meaning) => (
+                {Object.keys(nameData.meanings).map((meaning) => (
                   <option key={meaning} value={meaning}>{meaning}</option>
                 ))}
               </select>
