@@ -136,8 +136,12 @@ export default function CharacterNameGenerator() {
 
         <div className="mb-8 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
-            Create unique character names for your stories, games, or roleplaying adventures.
+            Create unique character names for your stories, games, or roleplaying adventures. Bring your characters to life with our Character Name Generator!
             Choose your preferred genre and customize your character with various naming patterns and traits.
+            Whether you're crafting a hero, villain, or sidekick, find the perfect name to match their personality 
+            and story. Choose from fantasy, modern, or historical themes, and explore various customization 
+            options to create a name that captures the essence of your character. Ideal for writers, gamers, 
+            and role-playing enthusiasts looking to add depth and identity to their creations.
           </p>
         </div>
         

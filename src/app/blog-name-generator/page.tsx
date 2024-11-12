@@ -118,8 +118,11 @@ function BlogNameGenerator() {
 
         <div className="mb-8 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
-            Create unique and catchy blog names for your niche.
-            Generate professional, personal, or creative blog names with matching domains.
+          Find the perfect name for your blog with our Blog Name Generator! 
+          Whether you're starting a professional, personal, or creative blog, our tool helps you generate 
+          unique and catchy names tailored to your niche. Explore options that capture your brand’s 
+          personality, and find names with matching domains to help you stand out online. Ideal for bloggers 
+          in every niche looking to make a memorable first impression.
           </p>
         </div>
         

@@ -136,8 +136,12 @@ export default function PenNameGenerator() {
 
         <div className="mb-8 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
-            Create unique pen names for your writing career.
-            Choose from classic, modern, or artistic styles with various customization options.
+            Create unique pen names for your writing career. Whether you're crafting an elegant pseudonym for a historical novel, 
+            a bold name for a sci-fi thriller, or something artistic for poetry, we’ve got you covered. 
+            Choose from classic, modern, or creative styles, and customize each element to create a memorable name that 
+            resonates with your writing voice and genre. Perfect for authors, bloggers, and creatives ready to make 
+            their mark with a name as unique as their work.
+            
           </p>
         </div>
         
