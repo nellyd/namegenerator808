@@ -75,6 +75,12 @@ export default function WarhammerNameGenerator() {
           Warhammer Name Generator
         </h1>
 
+        <div className="mb-8 text-center">
+          <p className="text-gray-600 text-sm leading-relaxed">
+          Unleash your Warhammer persona with our name generator! Craft a unique identity by mixing custom or random prefixes, main names, and suffixes to forge your perfect Warhammer name.
+          </p>
+        </div>
+
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
