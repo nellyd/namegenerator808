@@ -29,6 +29,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+      <meta name="google-site-verification" content="-ludGR0bVl1CDppkz_tkLRDETJdVqniSb9fFGpKIZ-Y" />
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SSKKQH05XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SSKKQH05XJ');
+</script>
+
         
       </head>
       <body
