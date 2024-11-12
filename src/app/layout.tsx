@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   verification: {
     google: "-ludGR0bVl1CDppkz_tkLRDETJdVqniSb9fFGpKIZ-Y",
   },
+  other: {
+    'google-adsense-account': 'ca-pub-2870942440693656',
+  },
 };
 
 export default function RootLayout({
@@ -48,6 +51,14 @@ export default function RootLayout({
             gtag('config', 'G-SSKKQH05XJ');
           `}
         </Script>
+
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2870942440693656"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
 
         <Navbar />
         <main>
