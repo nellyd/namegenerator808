@@ -1,3 +1,4 @@
+// src/app/layout.tsx
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -17,8 +18,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NameGeno",
+  title: "NameGen",
   description: "Generate perfect names for any purpose",
+  verification: {
+    google: "-ludGR0bVl1CDppkz_tkLRDETJdVqniSb9fFGpKIZ-Y",
+  },
 };
 
 export default function RootLayout({
@@ -28,24 +32,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-      <meta name="google-site-verification" content="-ludGR0bVl1CDppkz_tkLRDETJdVqniSb9fFGpKIZ-Y" />
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SSKKQH05XJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SSKKQH05XJ');
-</script>
-
-        
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-    
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-SSKKQH05XJ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-SSKKQH05XJ');
+          `}
+        </Script>
 
         <Navbar />
         <main>
