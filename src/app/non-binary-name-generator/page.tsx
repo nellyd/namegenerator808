@@ -299,8 +299,9 @@ export default function NonBinaryNameGenerator() {
               </button>
             </div>
           </form>
+        </div>
 
-          <div className="mb-8 text-center">
+        <div className="mb-8 text-center">
           <h2>Understanding Non-Binary Identity</h2>
     <p>The way we think about gender is evolving, and non-binary is an important part of that journey. Non-binary refers to people who don’t see themselves fitting into the traditional categories of male or female. It’s about breaking away from the binary and embracing a spectrum of gender identities that are unique and personal.</p>
     <p>The <strong>Non-Binary Name Generator</strong> celebrates this diversity by offering a space to explore names that feel authentic and empowering. It’s more than just a tool—it’s a way to celebrate individuality and inclusivity.</p>
@@ -313,7 +314,6 @@ export default function NonBinaryNameGenerator() {
     <p>While both gender-neutral and non-binary names are not tied to a specific gender, there’s a subtle difference. Gender-neutral names are traditionally seen as suitable for any gender, like Taylor or Alex. Non-binary names, however, often carry a deeper sense of individuality and may challenge the expectations of traditional naming altogether.</p>
     <p>Our <strong>Non-Binary Name Generator</strong> bridges these ideas, giving you the freedom to find a name that feels exactly right for your journey.</p>
 
-        </div>
         </div>
 
         {results.length > 0 && (
