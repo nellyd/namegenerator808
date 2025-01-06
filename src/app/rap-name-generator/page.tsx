@@ -137,9 +137,9 @@ export default function RapperNameGenerator() {
           <p className="text-gray-600 text-sm leading-relaxed">
           Ever wonder what name would make you stand out in the rap game? 
           Our algorithm combines street cred with style to create names that hit different. 
-          Over 10,000 rappers already found their stage identity here.
-          <br></br>
-            Create your perfect rap name! Whether you're looking for something hard-hitting, 
+          Over 10,000 rappers already found their stage identity here.</p>
+         
+            <p>Create your perfect rap name! Whether you're looking for something hard-hitting, 
             clever, or unique, our generator combines street cred with creativity to craft 
             the perfect hip-hop moniker. From old school to new school, find a name that 
             matches your style and makes you stand out in the game.
@@ -228,15 +228,14 @@ export default function RapperNameGenerator() {
   
 Ever wonder how rap's biggest names got their monikers? The history of hip-hop names is as diverse as the culture itself:
 Some of the most iconic rap names came from unexpected places. Like 50 Cent, who took his name from a Brooklyn robber, or Eminem, which simply came from his initials M&M.
-<br><br>
 Method Man earned his name from the film "Method Man" (1979), which he watched obsessively as a teen. The name stuck because he was always trying different methods to make it in the game.
 A$AP Rocky's "A$AP" stands for "Always Strive And Prosper" – but also "Assassinating Snitches and Police." It's a perfect example of how rap names often carry multiple meanings.
 Ice Cube got his name from his older brother. During arguments, he'd threaten to throw his little brother into a freezer and turn him into an ice cube. The name stuck, proving even family roasts can turn into rap gold.
 Travis Scott borrowed his name from a favorite uncle named Travis and Kid Cudi's real first name (Scott). It shows how rap names can be tributes to both family and musical influences.
-MF DOOM took his name from the Marvel Comics villain Doctor Doom, creating an entire supervillain persona around it. He even wore a metal mask during performances, showing how a name can shape an entire artistic identity.
-<br><br>
+MF DOOM took his name from the Marvel Comics villain Doctor Doom, creating an entire supervillain persona around it. He even wore a metal mask during performances, showing how a name can shape an entire artistic identity.</p>
+
 <h3>Did You Know?</h3>
-- Tyler, The Creator made his stage name at age 13 while making a MySpace page
+<p>- Tyler, The Creator made his stage name at age 13 while making a MySpace page
 - Childish Gambino used an online Wu-Tang name generator (just like our generator, but way less cool)
 - 21 Savage's name combines a street gang number from his neighborhood with a reference to his perceived ruthless nature
 - Kid Cudi's name came from his high school nickname "Cudi" and adding "Kid" because he felt young in the game
