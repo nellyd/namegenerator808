@@ -88,9 +88,12 @@ export default function BabyNameGenerator() {
         </h1>
 
         <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+          <p>
             Find the perfect name for your little one! Our baby name generator helps you
-            discover beautiful, meaningful names that match your preferences and style.
+            discover beautiful, meaningful names that match your preferences and style. 
+            Whether you're after something classic, unique, or culturally meaningful, 
+            we've got thousands of options ready to inspire you. 
+            Fill out the fields below, hit generate to start exploring.
           </p>
         </div>
         

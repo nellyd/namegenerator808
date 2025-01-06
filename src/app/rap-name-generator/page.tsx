@@ -134,7 +134,7 @@ export default function RapperNameGenerator() {
 
         <div className="mb-8 text-center">
         <h2>From Streets to Beats: Find Your Hip-Hop Identity</h2>
-          <p className="text-gray-600 text-sm leading-relaxed">
+          <p>
           Ever wonder what name would make you stand out in the rap game? 
           Our algorithm combines street cred with style to create names that hit different. 
           Over 10,000 rappers already found their stage identity here.</p>
@@ -224,11 +224,9 @@ export default function RapperNameGenerator() {
 
         <div className="mb-8 text-center">
           <h2>The Stories Behind the Names</h2>
-          <p className="text-gray-600 text-sm leading-relaxed">
-  
-Ever wonder how rap's biggest names got their monikers? The history of hip-hop names is as diverse as the culture itself:
-Some of the most iconic rap names came from unexpected places. Like 50 Cent, who took his name from a Brooklyn robber, or Eminem, which simply came from his initials M&M.
-Method Man earned his name from the film "Method Man" (1979), which he watched obsessively as a teen. The name stuck because he was always trying different methods to make it in the game.
+          <p>Ever wonder how rap's biggest names got their monikers? The history of hip-hop names is as diverse as the culture itself:
+Some of the most iconic rap names came from unexpected places. Like 50 Cent, who took his name from a Brooklyn robber, or Eminem, which simply came from his initials M&M.</p>
+<p>Method Man earned his name from the film "Method Man" (1979), which he watched obsessively as a teen. The name stuck because he was always trying different methods to make it in the game.
 A$AP Rocky's "A$AP" stands for "Always Strive And Prosper" – but also "Assassinating Snitches and Police." It's a perfect example of how rap names often carry multiple meanings.
 Ice Cube got his name from his older brother. During arguments, he'd threaten to throw his little brother into a freezer and turn him into an ice cube. The name stuck, proving even family roasts can turn into rap gold.
 Travis Scott borrowed his name from a favorite uncle named Travis and Kid Cudi's real first name (Scott). It shows how rap names can be tributes to both family and musical influences.
