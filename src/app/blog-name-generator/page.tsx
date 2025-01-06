@@ -211,39 +211,6 @@ function BlogNameGenerator() {
           </form>
         </div>
 
-        <div className="space-y-3 text-center">
-        <h2 className="text-3xl font-bold">Finding Your Perfect Blog Name With Our Blog Name Generator</h2>
-<p>Coming up with the right name for your blog isn't just challenging - it's a decision that could shape your entire online presence. Your blog name needs to be memorable, available as a domain, and something you'll still love years from now. Plus, it needs to stand out in an internet already packed with millions of blogs.
-Some proven approaches to naming your blog include:</p>
-
-<p>Use your niche keywords. Blogs like Food52, Travel Insider, and DIY Crafts include their topic right in the name. This helps readers immediately understand what your blog is about and can help with search visibility.
-Include your own name. Many successful bloggers like Tim Ferriss, Marie Forleo, and Neil Patel built their brands around their names. </p>
-
-<p>This approach gives you flexibility to change topics over time, though it might limit your options if you ever want to sell.
-Create something unique. Think of memorable names like "The Pioneer Woman" or "Nerd Fitness" - they're catchy, unique, and instantly tell readers what to expect. This approach takes more creativity but can really help you stand out.</p>
-
-<p>Even with these strategies in mind, finding the perfect blog name can feel overwhelming. Maybe you've brainstormed dozens of ideas only to find the domains are taken. That's exactly why we built this blog name generator.</p>
-
-<h2 className="text-3xl font-bold">How to Use Our Blog Name Generator to Find Your Perfect Name</h2>
-<p>Ready to discover your blog's new name? Here's how to make the most of our generator:</p>
-
-<h3 className="text-2xl font-bold">Step 1. Enter Your Blog's Main Topic or Theme</h3>
-<p>Start by entering what your blog will be about. Whether it's cooking, personal finance, parenting, or technology, our generator needs to know your niche to create relevant suggestions. If you're not sure about your niche yet, check out our guide on choosing a blog topic.</p>
-
-<h3 className="text-2xl font-bold">Step 2. Generate a List of Creative Blog Names</h3>
-<p>Our generator will create a variety of name options using AI-powered creativity. You'll see names with alliteration, clever word combinations, and industry-relevant terminology. Keep generating until something catches your eye.</p>
-
-<h3 className="text-2xl font-bold">Step 3. Pick Your Favorites</h3>
-<p>From your generated list, select 2-3 names you really like. Don't just pick one - domains can be surprisingly scarce, so having backups is smart. Look for names that:</p>
-
-<p>- Are easy to spell and remember
-- Reflect your blog's personality
-- Wouldn't be confusing when spoken aloud
-- Could grow with your blog over time</p>
-
-<h3 className="text-2xl font-bold">Step 4. Check Domain Availability</h3>
-        </div>
-
         {results.length > 0 && (
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
@@ -291,6 +258,39 @@ Create something unique. Think of memorable names like "The Pioneer Woman" or "N
           </div>
         )}
       </div>
+
+      <div className="space-y-3 text-center">
+        <h2 className="text-3xl font-bold">Finding Your Perfect Blog Name With Our Blog Name Generator</h2>
+<p>Coming up with the right name for your blog isn't just challenging - it's a decision that could shape your entire online presence. Your blog name needs to be memorable, available as a domain, and something you'll still love years from now. Plus, it needs to stand out in an internet already packed with millions of blogs.
+Some proven approaches to naming your blog include:</p>
+
+<p>Use your niche keywords. Blogs like Food52, Travel Insider, and DIY Crafts include their topic right in the name. This helps readers immediately understand what your blog is about and can help with search visibility.
+Include your own name. Many successful bloggers like Tim Ferriss, Marie Forleo, and Neil Patel built their brands around their names. </p>
+
+<p>This approach gives you flexibility to change topics over time, though it might limit your options if you ever want to sell.
+Create something unique. Think of memorable names like "The Pioneer Woman" or "Nerd Fitness" - they're catchy, unique, and instantly tell readers what to expect. This approach takes more creativity but can really help you stand out.</p>
+
+<p>Even with these strategies in mind, finding the perfect blog name can feel overwhelming. Maybe you've brainstormed dozens of ideas only to find the domains are taken. That's exactly why we built this blog name generator.</p>
+
+<h2 className="text-3xl font-bold">How to Use Our Blog Name Generator to Find Your Perfect Name</h2>
+<p>Ready to discover your blog's new name? Here's how to make the most of our generator:</p>
+
+<h3 className="text-2xl font-bold">Step 1. Enter Your Blog's Main Topic or Theme</h3>
+<p>Start by entering what your blog will be about. Whether it's cooking, personal finance, parenting, or technology, our generator needs to know your niche to create relevant suggestions. If you're not sure about your niche yet, check out our guide on choosing a blog topic.</p>
+
+<h3 className="text-2xl font-bold">Step 2. Generate a List of Creative Blog Names</h3>
+<p>Our generator will create a variety of name options using AI-powered creativity. You'll see names with alliteration, clever word combinations, and industry-relevant terminology. Keep generating until something catches your eye.</p>
+
+<h3 className="text-2xl font-bold">Step 3. Pick Your Favorites</h3>
+<p>From your generated list, select 2-3 names you really like. Don't just pick one - domains can be surprisingly scarce, so having backups is smart. Look for names that:</p>
+
+<p>- Are easy to spell and remember
+- Reflect your blog's personality
+- Wouldn't be confusing when spoken aloud
+- Could grow with your blog over time</p>
+
+<h3 className="text-2xl font-bold">Step 4. Check Domain Availability</h3>
+        </div>
 
       <style jsx global>{`
         @keyframes fadeIn {
