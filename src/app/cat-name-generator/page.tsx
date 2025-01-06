@@ -159,9 +159,8 @@ return (
         Cat Name Generator
       </h1>
 
-      <div className="mb-8 text-center">
-        <p className="text-gray-600 text-sm leading-relaxed">
-          Find the purr-fect name for your feline friend! Whether your cat is playful, 
+      <div className="space-y-3 text-center">
+        <p>Find the purr-fect name for your feline friend! Whether your cat is playful, 
           elegant, or mischievous, we'll help you discover a name that matches their 
           unique personality. From cute and classic to clever and creative, generate 
           the ideal name for your new furry family member.

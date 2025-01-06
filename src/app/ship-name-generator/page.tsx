@@ -139,9 +139,8 @@ export default function ShipNameGenerator() {
           Ship Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Set sail with the perfect vessel name! Whether you're naming a mighty 
+        <div className="space-y-3 text-center">
+          <p>Set sail with the perfect vessel name! Whether you're naming a mighty 
             warship, a swift merchant vessel, or a mysterious pirate ship, our 
             generator will help you find a name worthy of the seven seas. Combine 
             maritime tradition with your personal touch to create something truly unique.

@@ -117,9 +117,8 @@ export default function BusinessNameGenerator() {
           Business Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-          Create the perfect name for your company or startup with our Business Name Generator! 
+        <div className="space-y-3 text-center">
+          <p>Create the perfect name for your company or startup with our Business Name Generator! 
           Made for entrepreneurs in any industry, our tool helps you generate professional, 
           memorable names that resonate with your brand. Choose from various industries and 
           styles to find a name that aligns with your business vision and sets you apart in the market. 

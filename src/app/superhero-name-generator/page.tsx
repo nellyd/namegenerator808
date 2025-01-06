@@ -75,9 +75,8 @@ export default function SuperheroNameGenerator() {
           Superhero Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-          Discover your ultimate hero identity with our Superhero Name Generator! 
+        <div className="space-y-3 text-center">
+          <p>Discover your ultimate hero identity with our Superhero Name Generator! 
           Whether you're creating a brave protector, a shadowy vigilante, or a formidable villain, 
           find the perfect name to reflect your character's powers and personality. 
           Choose from various themes and styles to craft a name that embodies strength, 
