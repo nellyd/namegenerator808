@@ -193,20 +193,6 @@ export default function BandNameGenerator() {
 
         </div>
 
-        <div className="space-y-3 text-center">
-        <h2 className="text-3xl font-bold">The Stories Behind Famous Band Names</h2>
-<p>Pink Floyd came from Georgia blues musicians Pink Anderson and Floyd Council - band leader Syd Barrett combined their first and last names on a whim.</p>
-<p>The Beatles took their name from Buddy Holly's band "The Crickets," but changed the spelling to include the word "beat." John Lennon liked the idea of naming a band after an insect, adding a play on musical beats.</p>
-<p>ABBA wasn't trying to be clever - they just took the first letter of each member's name: Agnetha, Björn, Benny, and Anni-Frid.</p>
-<p>Led Zeppelin's name came from Keith Moon of The Who, who joked their band would go down "like a lead balloon." They changed the spelling to "led" to avoid confusion about pronunciation.</p>
-<p>Nirvana was chosen by Kurt Cobain for its meaning: a state of perfect happiness or enlightenment. Though he later said he wanted something "more angst-filled."</p>
-<p>Arctic Monkeys pulled their name randomly from a list of bands they'd brainstormed, claiming they wanted something that "sounded cool" and hadn't been taken.</p>
-<p>Green Day's name originated from Bay Area slang for a day spent smoking marijuana - though the band later distanced themselves from this meaning.</p>
-<p>Coldplay took their name from a book of collected poems called "Child's Reflections, Cold Play" - they originally performed under the name Pectoralz.</p>
-<p>Want to join the ranks of memorably named bands? Hit generate and start your legacy.</p>
-
-        </div>
-
         {results.length > 0 && (
           <div 
             className="bg-white rounded-lg shadow-lg p-6"
@@ -244,6 +230,20 @@ export default function BandNameGenerator() {
           </div>
         )}
       </div>
+
+      <div className="space-y-3 text-center">
+        <h2 className="text-3xl font-bold">The Stories Behind Famous Band Names</h2>
+<p>Pink Floyd came from Georgia blues musicians Pink Anderson and Floyd Council - band leader Syd Barrett combined their first and last names on a whim.</p>
+<p>The Beatles took their name from Buddy Holly's band "The Crickets," but changed the spelling to include the word "beat." John Lennon liked the idea of naming a band after an insect, adding a play on musical beats.</p>
+<p>ABBA wasn't trying to be clever - they just took the first letter of each member's name: Agnetha, Björn, Benny, and Anni-Frid.</p>
+<p>Led Zeppelin's name came from Keith Moon of The Who, who joked their band would go down "like a lead balloon." They changed the spelling to "led" to avoid confusion about pronunciation.</p>
+<p>Nirvana was chosen by Kurt Cobain for its meaning: a state of perfect happiness or enlightenment. Though he later said he wanted something "more angst-filled."</p>
+<p>Arctic Monkeys pulled their name randomly from a list of bands they'd brainstormed, claiming they wanted something that "sounded cool" and hadn't been taken.</p>
+<p>Green Day's name originated from Bay Area slang for a day spent smoking marijuana - though the band later distanced themselves from this meaning.</p>
+<p>Coldplay took their name from a book of collected poems called "Child's Reflections, Cold Play" - they originally performed under the name Pectoralz.</p>
+<p>Want to join the ranks of memorably named bands? Hit generate and start your legacy.</p>
+
+        </div>
 
       <style jsx global>{`
         @keyframes fadeIn {

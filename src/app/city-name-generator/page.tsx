@@ -51,7 +51,7 @@ export default function CityNameGenerator() {
     if (Math.random() > 0.5) {
       return `${getRandom(styleData.prefixes)} ${getRandom(styleData.suffixes)}`;
     } else {
-      const baseType = getRandom(['nature', 'cultural', 'colors']);
+      const baseType = getRandom(['nature', 'cultural', 'colors']) as keyof typeof cityNameData.baseNames.english;
       const base = cityNameData.baseNames.english[baseType];
       return `${getRandom(base)}${getRandom(styleData.suffixes)}`;
     }
@@ -63,13 +63,13 @@ export default function CityNameGenerator() {
     let base: string;
     
     if (style === 'fantasy') {
-      const baseType = getRandom(['mystical', 'elements', 'nature']);
+      const baseType = getRandom(['mystical', 'elements', 'nature']) as keyof typeof cityNameData.baseNames.fantasy;
       base = getRandom(cityNameData.baseNames.fantasy[baseType]);
     } else if (style === 'scifi') {
-      const baseType = getRandom(['tech', 'future', 'space']);
+      const baseType = getRandom(['tech', 'future', 'space']) as keyof typeof cityNameData.baseNames.scifi;
       base = getRandom(cityNameData.baseNames.scifi[baseType]);
     } else {
-      const baseType = getRandom(['nature', 'cultural', 'colors']);
+      const baseType = getRandom(['nature', 'cultural', 'colors']) as keyof typeof cityNameData.baseNames.english;
       base = getRandom(cityNameData.baseNames.english[baseType]);
     }
     
@@ -81,13 +81,13 @@ export default function CityNameGenerator() {
   const generateGeographicName = (style: CityStyle): string => {
     const { terrain, water, features } = cityNameData.geographic;
     const patterns = [
-      () => `${getRandom(terrain)}${getRandom(cityNameData.suffixes[style] || cityNameData.suffixes.english)}`,
-      () => `${getRandom(water)}${getRandom(cityNameData.styles[style].suffixes)}`,
-      () => `${getRandom(features)} ${getRandom(cityNameData.styles[style].prefixes)}`,
-      () => `${getRandom(cityNameData.styles[style].prefixes)} ${getRandom(terrain)}`,
-      () => `${getRandom(water)} ${getRandom(cityNameData.styles[style].suffixes)}`
+      `${getRandom(terrain)}${getRandom(cityNameData.suffixes[style] || cityNameData.suffixes.english)}`,
+      `${getRandom(water)}${getRandom(cityNameData.styles[style].suffixes)}`,
+      `${getRandom(features)} ${getRandom(cityNameData.styles[style].prefixes)}`,
+      `${getRandom(cityNameData.styles[style].prefixes)} ${getRandom(terrain)}`,
+      `${getRandom(water)} ${getRandom(cityNameData.styles[style].suffixes)}`
     ];
-    return getRandom(patterns)();
+    return getRandom(patterns);
   };
 
   // Helper function to generate modified name
@@ -165,10 +165,12 @@ export default function CityNameGenerator() {
           City Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Create unique and memorable city names for your world-building projects.
-            Choose from various styles and patterns to generate the perfect city name.
+        <div className="space-y-3 text-center">
+          <p>Whether you're crafting a fantasy novel, designing a video game, or building a D&D campaign, naming your fictional city can shape your entire world. 
+            A great city name sets the tone, hints at its culture, and sticks in your readers' or players' minds.
+          Think about iconic fictional cities: Gotham City's name instantly evokes darkness and gothic architecture. 
+          Rivendell captures elvish elegance in just three syllables. Even Ankh-Morpork tells you something about 
+          its character before you know anything else about it.
           </p>
         </div>
         
@@ -292,6 +294,17 @@ export default function CityNameGenerator() {
           </div>
         )}
       </div>
+
+      <div className="space-y-3 text-center">
+        <h2 className="text-3xl font-bold">Creating a memorable city names</h2>
+
+<p><strong>Cultural flavor:</strong> Names like New Constantinople or Neo Tokyo immediately suggest the city's heritage</p>
+<p><strong>Environment:</strong> Names like Frostreach or Sandspire tell us about the surrounding landscape</p>
+<p><strong>History:</strong> Places like King's Landing or Dragon's Gate hint at important past events</p>
+<p><strong>Atmosphere:</strong> Whether it's Shadowhaven or Brightport, the name sets expectations</p>
+
+<p>Our city name generator helps you discover names that feel authentic to your world while being memorable and meaningful. Ready to name your next great city? Let's build something legendary.</p>
+        </div>
 
       <style jsx global>{`
         @keyframes fadeIn {
