@@ -61,9 +61,9 @@ export const cityNameData = {
   } as Record<CityStyle, string[]>,
 
   geographic: {
-    terrain: ['mountains', 'hills', 'plains', 'forest', 'desert', 'valley', 'canyon', 'meadow'],
-    water: ['river', 'lake', 'sea', 'ocean', 'bay', 'harbor', 'stream', 'falls'],
-    features: ['caves', 'cliffs', 'springs', 'grove', 'ridge', 'peaks', 'shores', 'banks']
+    terrain: ['Mountains', 'Hills', 'Plains', 'forest', 'desert', 'valley', 'canyon', 'meadow', 'plateau', 'highlands', 'mesa', 'bluffs', 'butte', 'cliff'],
+    water: ['River', 'Lake', 'Sea', 'Ocean', 'spring', 'bay', 'harbor', 'stream', 'pool', 'tarn', 'basin', 'reservoir', 'falls', 'bay', 'harbor', 'cove', 'inlet', 'fjord', 'sound', 'strait', 'channel', 'marsh', 'swamp', 'bayou', 'bog', 'fen', 'delta', 'estuary', 'lagoon'],
+    features: ['Caves', 'Cliffs', 'Springs', 'grove', 'ridge', 'peaks', 'shores', 'banks']
   },
 
   modifiers: {

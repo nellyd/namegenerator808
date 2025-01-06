@@ -173,7 +173,7 @@ export default function DogNameGenerator() {
           Dog Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Find the perfect name for your furry friend! Whether you're looking for something 
             classic, cute, or unique, our generator will help you discover the ideal name 

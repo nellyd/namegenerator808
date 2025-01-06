@@ -125,7 +125,7 @@ export default function GirlNameGenerator() {
           Girl Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Generate beautiful and meaningful girl names from various cultures and styles.
             Find the perfect name with optional meanings and middle names.

@@ -295,7 +295,7 @@ export default function CityNameGenerator() {
         )}
       </div>
 
-      <div className="space-y-3 text-center">
+      <div className="space-y-3 mt-8 text-center">
         <h2 className="text-3xl font-bold">Creating a memorable city names</h2>
 
 <p><strong>Cultural flavor:</strong> Names like New Constantinople or Neo Tokyo immediately suggest the city's heritage</p>
@@ -303,7 +303,8 @@ export default function CityNameGenerator() {
 <p><strong>History:</strong> Places like King's Landing or Dragon's Gate hint at important past events</p>
 <p><strong>Atmosphere:</strong> Whether it's Shadowhaven or Brightport, the name sets expectations</p>
 
-<p>Our city name generator helps you discover names that feel authentic to your world while being memorable and meaningful. Ready to name your next great city? Let's build something legendary.</p>
+<p>Our city name generator helps you discover names that feel authentic to your world while being memorable and meaningful.</p> 
+<p>Ready to name your next great city? Let's build something legendary.</p>
         </div>
 
       <style jsx global>{`

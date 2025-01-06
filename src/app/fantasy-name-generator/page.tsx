@@ -160,7 +160,7 @@ export default function FantasyNameGenerator() {
           Fantasy Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Create magical and mystical names for your fantasy characters! Whether you're 
             naming an elegant elf, a sturdy dwarf, or a mysterious wizard, our generator 

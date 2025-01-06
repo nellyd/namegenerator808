@@ -110,7 +110,7 @@ export default function DragonBallGenerator() {
           Dragon Ball Character Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Create unique Dragon Ball characters with race-appropriate names,
             power levels, techniques, and backstories.

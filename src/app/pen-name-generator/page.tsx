@@ -134,8 +134,8 @@ export default function PenNameGenerator() {
           Pen Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+        <div className="space-y-3 text-center">
+          <p>
             Create unique pen names for your writing career. Whether you're crafting an elegant pseudonym for a historical novel, 
             a bold name for a sci-fi thriller, or something artistic for poetry, we’ve got you covered. 
             Choose from classic, modern, or creative styles, and customize each element to create a memorable name that 
@@ -290,6 +290,32 @@ export default function PenNameGenerator() {
           </div>
         )}
       </div>
+
+      <div className="space-y-3 text-center">
+      <h2 className="text-3xl font-bold">Why Create a Pen Name?</h2>
+<p>Throughout literary history, authors have chosen pen names for various compelling reasons. 
+  Some writers need a professional barrier between their personal and public lives. 
+  Others want to write in different genres without confusing their readers. 
+  Even today, many authors choose pen names for marketability or to better connect with their target audience.</p>
+
+  <h2 className="text-3xl font-bold">How to Choose Your Pen Name</h2>
+<p>Finding the perfect pen name involves several key considerations:</p>
+
+<p><strong>Consider your genre:</strong> Romance readers might connect better with "Rose Sterling" than "Rachel Smith," while thriller readers might prefer "R.S. Stone"</p>
+<p><strong>Think about your audience:</strong> Young adult authors often choose contemporary-sounding names that resonate with their teenage readers</p>
+<p><strong>Check name availability:</strong> Before settling on a name, verify if the domain name and social media handles are available</p>
+<p><strong>Avoid famous associations:</strong> Steer clear of names too similar to well-known authors or public figures</p>
+<p><strong>Test the sound:</strong> Your pen name should be easy to pronounce, spell, and remember</p>
+
+<h2 className="text-3xl font-bold">Famous Authors Who Used Pen Names</h2>
+<p>The tradition of pen names includes some of literature's most celebrated writers:</p>
+<p><strong>JK Rowling</strong> became Robert Galbraith to write crime fiction without Harry Potter expectations</p>
+<p><strong>Mark Twain</strong> was born Samuel Clemens but chose a riverboat term as his pen name</p>
+<p><strong>George Eliot</strong> was actually Mary Ann Evans, who used a male name to be taken seriously in the 1800s</p>
+<p><strong>James Herriot</strong> was the pen name of James Alfred Wight, who wrote about his veterinary experiences</p>
+
+<p>Ready to discover your literary alter ego? Our pen name generator combines creativity with practicality to help you find the perfect name for your writing journey. Simply enter your preferences below and let's craft your new authorial identity.</p>
+</div>
 
       <style jsx global>{`
         @keyframes fadeIn {

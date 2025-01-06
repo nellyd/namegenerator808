@@ -162,7 +162,7 @@ export default function FoodNameGenerator() {
           Food Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Generate unique and appetizing dish names for your menu.
           </p>

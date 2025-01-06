@@ -55,11 +55,11 @@ export default function GeneratorPage() {
       <div className="max-w-md mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-center text-gray-800 flex items-center justify-center gap-2">
           <Wand2 className="h-8 w-8 text-blue-600" />
-          [Generator Name] Generator
+          First Name Generator
         </h1>
 
         {/* Description */}
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             [Add generator-specific description here]
           </p>

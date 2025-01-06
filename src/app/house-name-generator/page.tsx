@@ -144,7 +144,7 @@ export default function HouseNameGenerator() {
           House Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Create the perfect name for your residence! Whether it's a grand manor, 
             a cozy cottage, or a majestic castle, our generator will help you find 

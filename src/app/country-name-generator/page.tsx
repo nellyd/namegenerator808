@@ -198,7 +198,7 @@ export default function CountryNameGenerator() {
           Country Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
+        <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
             Generate unique country names for your world-building projects.
             Create realistic or fictional names with various styles and patterns.
