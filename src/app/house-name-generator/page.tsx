@@ -289,6 +289,42 @@ export default function HouseNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Naming Your Home</h2>
+
+ <p className="mb-6">
+   Naming your home is a tradition that dates back centuries, from grand English estates to cozy countryside cottages. While it might seem formal, giving your house a name adds character, creates a sense of place, and can even make a property more memorable for potential buyers. It's a chance to tell your home's story or create a new chapter in its history.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Traditional Naming Approaches</h3>
+
+ <p className="mb-6">
+   Historically, homes were often named after their location or natural features: Hill House, Riverside Manor, or The Oaks. Others referenced the property's history, like Old Mill House or The Former Rectory. These names have stood the test of time because they create an immediate connection to the property's setting or heritage.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Modern Home Naming</h3>
+
+ <p className="mb-6">
+   Today's homeowners are getting creative with their property names. Some choose names that reflect their family's story, like "Journey's End" for a forever home or "Three Sisters Cottage" for a vacation property shared by siblings. Others opt for names that capture the home's atmosphere: "Sunflower House" for a bright, cheerful home, or "Tranquility Base" for a peaceful retreat.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Practical Considerations</h3>
+
+ <p className="mb-6">
+   When naming your property, consider its practicality for mail delivery and emergency services. The name should be clear, easy to spell, and ideally give some indication of location. Avoid names that could be confused with nearby streets or properties. If you're in a rural area, a distinctive name can be particularly helpful for visitors and delivery services.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Making It Official</h3>
+
+ <p className="mb-6">
+   Before settling on a name, check local regulations about property naming. Some areas require registration of house names, while others treat them as informal additions. You might need to maintain your street number alongside the name. Consider how the name will look on signs, letterheads, and official documents.
+ </p>
+
+ <p className="mb-6">
+   Looking for the perfect name for your property? Our house name generator combines traditional elements with modern creativity to help you find a name that feels just right for your home. Whether you're naming a city apartment or a country estate, we'll help you discover options that resonate with your property's character.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

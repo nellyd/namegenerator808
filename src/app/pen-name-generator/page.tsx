@@ -291,7 +291,7 @@ export default function PenNameGenerator() {
         )}
       </div>
 
-      <div className="mb-8 text-center">
+      <div className="max-w-3xl mx-auto">
       <h3 className="text-2xl font-bold">Why Create a Pen Name?</h3>
 <p>Throughout literary history, authors have chosen pen names for various compelling reasons. 
   Some writers need a professional barrier between their personal and public lives. 

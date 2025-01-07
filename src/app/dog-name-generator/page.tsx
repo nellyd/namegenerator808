@@ -331,6 +331,46 @@ export default function DogNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Naming Your Dog</h2>
+
+ <p className="mb-6">
+   Choosing the perfect name for your dog is one of the first and most important ways you'll bond with your new companion. Unlike naming a child, you have a unique advantage - you can see your dog's personality, quirks, and physical traits before deciding on their name. That bouncing black puppy might just look like a "Shadow," or that golden retriever's sunny disposition might make "Sunny" the obvious choice.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">What Makes a Great Dog Name?</h3>
+
+ <p className="mb-6">
+   The best dog names are typically short and distinct - one or two syllables that your pup can easily recognize. Think about it: you'll be calling this name across dog parks, using it for commands, and saying it thousands of times over the years. That's why classics like Max, Luna, and Bear have stood the test of time.
+ </p>
+
+ <p className="mb-6">
+   Behaviorists suggest that names ending in an "ee" sound (like Charlie, Rosie, or Bailey) often work well because they sound friendly and upbeat. Dogs also respond better to hard consonants (like "k" or "t") which stand out from general conversation.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Modern Trends in Dog Names</h3>
+
+ <p className="mb-6">
+   Today's pet parents are increasingly treating their dogs as family members, and this shows in naming trends. Human names like Oliver, Emma, and Jack are more popular than ever. Pop culture continues to influence our choices too - after Game of Thrones, names like Arya and Ghost saw a huge spike. Food names are having a moment as well, with Pepper, Maple, and Olive leading the pack.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Avoiding Common Pitfalls</h3>
+
+ <p className="mb-6">
+   While it might be tempting to give your dog a clever or complex name, remember that it needs to be practical. A name that's too long or sounds too similar to common commands (like "Kit" sounds like "Sit") might confuse your dog. Also consider how comfortable you'll feel calling the name in public - that funny name might seem less amusing after the hundredth time at the dog park.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">A Name That Grows</h3>
+
+ <p className="mb-6">
+   The best dog names are the ones that grow with your pet. That tiny puppy named "Tiny" might not suit them when they grow into a 70-pound adult, but a name that reflects their personality or your bond will always fit just right.
+ </p>
+
+ <p className="mb-6">
+   Ready to find the perfect name for your four-legged friend? Our dog name generator can help spark ideas that are as unique as your new companion.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

@@ -260,7 +260,7 @@ export default function RapperNameGenerator() {
         )}
       </div>
 
-      <div className="mb-8 text-center">
+      <div className="max-w-3xl mx-auto">
       <h3 className="text-2xl font-bold">The Stories Behind the Names</h3>
           <p>Ever wonder how rap's biggest names got their monikers? The history of hip-hop names is as diverse as the culture itself:
 Some of the most iconic rap names came from unexpected places. Like 50 Cent, who took his name from a Brooklyn robber, or Eminem, which simply came from his initials M&M.</p>

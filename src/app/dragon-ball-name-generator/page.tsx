@@ -110,12 +110,25 @@ export default function DragonBallGenerator() {
           Dragon Ball Character Generator
         </h1>
 
-        <div className="space-y-3 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Create unique Dragon Ball characters with race-appropriate names,
-            power levels, techniques, and backstories.
-          </p>
-        </div>
+        <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">Find Your Dragon Ball Identity</h2>
+
+ <p className="mb-6">
+   In the world of Dragon Ball, names are more than just labels - they're part of an epic tradition. From Goku's Saiyan name Kakarot to Vegeta's royal title, each character's name tells a story. Saiyans are often named after vegetables (Vegeta, Broly, Kakarot), while other characters follow different patterns like Bulma's family being named after underwear (Trunks, Brief) or the Ginyu Force members being named after dairy products.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">The Art of Dragon Ball Names</h3>
+
+ <p className="mb-6">
+   Creator Akira Toriyama is famous for his clever naming conventions. Demon King Piccolo and his children are named after musical instruments, the Ginyu Force after dairy products, and Frieza's race after cold-related words. Even the magical Dragon Balls themselves summon dragons with meaningful names like Shenron ("Divine Dragon") and Porunga ("Dragon of Dreams").
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Find Your Place in the Universe</h3>
+
+ <p className="mb-6">
+   Whether you want to be a proud Saiyan warrior, a member of Frieza's army, or create your own unique character, our Dragon Ball name generator will help you find a name worthy of the series' creative legacy. Choose your race, select your style, and power up your perfect Dragon Ball identity!
+ </p>
+</div>
         
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <form onSubmit={handleSubmit} className="space-y-4">

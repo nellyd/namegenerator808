@@ -322,6 +322,52 @@ export default function GameNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">Naming Your Game: From Concept to Classic</h2>
+
+ <p className="mb-6">
+   A great game name can be the difference between a scroll-past and a must-play. Think about it: would "Among Us" have been as catchy if it was called "Space Detective"? Or would "Elden Ring" have carried the same mystique if it was simply "Dark Fantasy RPG"? The right name captures imagination, hints at gameplay, and sticks in players' minds.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">What Makes a Game Name Work?</h3>
+
+ <p className="mb-6">
+   The best game names do three things at once: they intrigue potential players, reflect the game's content, and stand out in a crowded marketplace. "Minecraft" brilliantly describes its core mechanics while being uniquely memorable. "Red Dead Redemption" evokes both its Western setting and emotional themes. "Portal" manages to be both literally descriptive and mysteriously compelling.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Genre Conventions and Breaking Them</h3>
+
+ <p className="mb-6">
+   Each gaming genre has its own naming patterns. RPGs often use epic fantasy words ("Final Fantasy," "Dragon Quest"). FPS games frequently opt for punchy, action-oriented titles ("Doom," "Halo"). Indie games tend toward the quirky and distinctive ("Untitled Goose Game," "Stardew Valley"). Understanding these conventions lets you either follow them for instant recognition or subvert them for attention.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Modern Naming Trends</h3>
+
+ <p className="mb-6">
+   Recent trends show a move toward simpler, bolder names. Single words with deep meaning ("Cyberpunk," "Valorant"), compound words that create new concepts ("Fortnite," "Minecraft"), or abstract terms that become uniquely associated with the game ("Apex Legends," "Overwatch"). Mobile games often use action words with fun modifiers ("Candy Crush," "Angry Birds") to stand out in app stores.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Practical Tips</h3>
+
+ <p className="mb-6">
+   Before finalizing your game's name, check its availability - not just as a domain name, but across all major gaming platforms and social media. Consider how it sounds when spoken, how it looks in a logo, and whether it's easily searchable. Avoid names too similar to existing games, and test how it translates into other languages if you're planning an international release.
+ </p>
+
+ <p className="mb-6">
+   Remember that some of gaming's biggest hits had working titles that were completely different. "Doom" was originally "It's Green and Pissed," and "Rocket League" started as "Supersonic Acrobatic Rocket-Powered Battle-Cars" (yes, really). Don't be afraid to iterate on your name as your game evolves.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Testing Your Name</h3>
+
+ <p className="mb-6">
+   Once you have a shortlist, try saying each name out loud. Imagine a friend asking "What are you playing?" Your answer should feel natural. Test the name with your target audience - does it create the right expectations? Does it make them want to know more? A good game name should spark curiosity and conversation.
+ </p>
+
+ <p className="mb-6">
+   Ready to find the perfect name for your game? Our generator combines genre awareness with creative wordplay to help you discover names that could become the next gaming sensation. Whether you're crafting an indie darling or dreaming up an AAA blockbuster, let's find a name that matches your vision.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

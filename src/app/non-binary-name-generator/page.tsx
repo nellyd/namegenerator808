@@ -339,19 +339,37 @@ export default function NonBinaryNameGenerator() {
         )}
       </div>
 
-      <div className="space-y-3 text-center">
-          <h2>Understanding Non-Binary Identity</h2>
-    <p>The way we think about gender is evolving, and non-binary is an important part of that journey. Non-binary refers to people who don’t see themselves fitting into the traditional categories of male or female. It’s about breaking away from the binary and embracing a spectrum of gender identities that are unique and personal.</p>
-    <p>The <strong>Non-Binary Name Generator</strong> celebrates this diversity by offering a space to explore names that feel authentic and empowering. It’s more than just a tool—it’s a way to celebrate individuality and inclusivity.</p>
-    <h2>Why Inclusive Names Matter</h2>
-    <p>A name is so much more than just a word—it’s a reflection of identity, culture, and self-expression. For those who are non-binary, finding a name that resonates with their identity can be an important step in affirming who they are.</p>
-    <p>Our generator is designed to go beyond traditional naming conventions, offering names that transcend gendered norms and open the door to limitless possibilities.</p>
-    
-    <h2>Gender Neutral vs. Non-Binary Names</h2>
-    <p>While both gender-neutral and non-binary names are not tied to a specific gender, there’s a subtle difference. Gender-neutral names are traditionally seen as suitable for any gender, like Taylor or Alex. Non-binary names, however, often carry a deeper sense of individuality and may challenge the expectations of traditional naming altogether.</p>
-    <p>Our <strong>Non-Binary Name Generator</strong> bridges these ideas, giving you the freedom to find a name that feels exactly right for your journey.</p>
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">Understanding Non-Binary Identity</h2>
 
-        </div>
+ <p className="mb-6">
+   The way we think about gender is evolving, and non-binary is an important part of that journey. Non-binary refers to people who don't see themselves fitting into the traditional categories of male or female. It's about breaking away from the binary and embracing a spectrum of gender identities that are unique and personal.
+ </p>
+
+ <p className="mb-6">
+   The <strong>Non-Binary Name Generator</strong> celebrates this diversity by offering a space to explore names that feel authentic and empowering. It's more than just a tool—it's a way to celebrate individuality and inclusivity.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Why Inclusive Names Matter</h3>
+
+ <p className="mb-6">
+   A name is so much more than just a word—it's a reflection of identity, culture, and self-expression. For those who are non-binary, finding a name that resonates with their identity can be an important step in affirming who they are.
+ </p>
+
+ <p className="mb-6">
+   Our generator is designed to go beyond traditional naming conventions, offering names that transcend gendered norms and open the door to limitless possibilities.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Gender Neutral vs. Non-Binary Names</h3>
+
+ <p className="mb-6">
+   While both gender-neutral and non-binary names are not tied to a specific gender, there's a subtle difference. Gender-neutral names are traditionally seen as suitable for any gender, like Taylor or Alex. Non-binary names, however, often carry a deeper sense of individuality and may challenge the expectations of traditional naming altogether.
+ </p>
+
+ <p className="mb-6">
+   Our <strong>Non-Binary Name Generator</strong> bridges these ideas, giving you the freedom to find a name that feels exactly right for your journey.
+ </p>
+</div>
 
       <style jsx global>{`
         @keyframes fadeIn {

@@ -216,43 +216,45 @@ export default function NicknameGenerator() {
         )}
       </div>
 
-      <h2 className="text-3xl font-bold mb-6">Types of Nicknames: A Deeper Dive</h2>
+      <div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">Types of Nicknames: A Deeper Dive</h2>
 
-<h3 className="text-2xl font-semibold mb-4">Shortened Names (Diminutives)</h3>
+  <h3 className="text-2xl font-semibold mb-4">Shortened Names (Diminutives)</h3>
 
-<p className="mb-6">Shortened names, also known as diminutives, are nicknames created by reducing or modifying someone's full name. These can be traditional shortenings like turning William into Bill or Will, Elizabeth into Beth or Lizzy, or Margaret into Peggy. Modern variations might include Christopher becoming Topher or Alexandra becoming Lexi. Some diminutives follow clear patterns (like adding -y or -ie to create Bobby from Robert), while others have evolved through historical use and might seem unrelated to the original name (like Jack from John). Diminutives often convey familiarity and affection in everyday use.</p>
+  <p className="mb-6">Shortened names, also known as diminutives, are nicknames created by reducing or modifying someone's full name. These can be traditional shortenings like turning William into Bill or Will, Elizabeth into Beth or Lizzy, or Margaret into Peggy. Modern variations might include Christopher becoming Topher or Alexandra becoming Lexi. Some diminutives follow clear patterns (like adding -y or -ie to create Bobby from Robert), while others have evolved through historical use and might seem unrelated to the original name (like Jack from John). Diminutives often convey familiarity and affection in everyday use.</p>
 
-<div className="mb-6">
- <h4 className="text-xl font-semibold mb-3">Classic Shortenings</h4>
- <ul className="list-disc pl-6 space-y-2">
-   <li>Elizabeth becomes Beth, Liz, Lizzy, or Betty</li>
-   <li>William transforms to Will, Bill, Billy, or Liam</li>
-   <li>Margaret becomes Maggie, Peggy, or Marge</li>
-   <li>Robert shortens to Rob, Bob, Bobby, or Robbie</li>
-   <li>Katherine varies to Kate, Katie, Kathy, or Kit</li>
- </ul>
-</div>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">Classic Shortenings</h4>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Elizabeth becomes Beth, Liz, Lizzy, or Betty</li>
+      <li>William transforms to Will, Bill, Billy, or Liam</li>
+      <li>Margaret becomes Maggie, Peggy, or Marge</li>
+      <li>Robert shortens to Rob, Bob, Bobby, or Robbie</li>
+      <li>Katherine varies to Kate, Katie, Kathy, or Kit</li>
+    </ul>
+  </div>
 
-<div className="mb-6">
- <h4 className="text-xl font-semibold mb-3">Modern Takes</h4>
- <ul className="list-disc pl-6 space-y-2">
-   <li>Christopher evolving to Topher or Chris</li>
-   <li>Jennifer shortening to Jen, Jenny, or Jenna</li>
-   <li>Alexander becoming Xander or Lex</li>
-   <li>Isabella transforming to Bella or Izzy</li>
-   <li>Matthew becoming Matt, Matty, or Theo</li>
- </ul>
-</div>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">Modern Takes</h4>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Christopher evolving to Topher or Chris</li>
+      <li>Jennifer shortening to Jen, Jenny, or Jenna</li>
+      <li>Alexander becoming Xander or Lex</li>
+      <li>Isabella transforming to Bella or Izzy</li>
+      <li>Matthew becoming Matt, Matty, or Theo</li>
+    </ul>
+  </div>
 
-<div className="mb-6">
- <h4 className="text-xl font-semibold mb-3">Initial-Based</h4>
- <ul className="list-disc pl-6 space-y-2">
-   <li>AJ for Andrew James or Amanda Jane</li>
-   <li>JD for John David or Jane Doe</li>
-   <li>CJ for Christopher James or Casey Jones</li>
-   <li>RJ for Robert Junior or Rachel Jane</li>
-   <li>TJ for Thomas James or Tara Jean</li>
- </ul>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">Initial-Based</h4>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>AJ for Andrew James or Amanda Jane</li>
+      <li>JD for John David or Jane Doe</li>
+      <li>CJ for Christopher James or Casey Jones</li>
+      <li>RJ for Robert Junior or Rachel Jane</li>
+      <li>TJ for Thomas James or Tara Jean</li>
+    </ul>
+  </div>
 </div>
 
 
