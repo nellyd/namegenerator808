@@ -261,23 +261,41 @@ export default function RapperNameGenerator() {
       </div>
 
       <div className="max-w-3xl mx-auto">
-      <h3 className="text-2xl font-bold">The Stories Behind the Names</h3>
-          <p>Ever wonder how rap's biggest names got their monikers? The history of hip-hop names is as diverse as the culture itself:
-Some of the most iconic rap names came from unexpected places. Like 50 Cent, who took his name from a Brooklyn robber, or Eminem, which simply came from his initials M&M.</p>
-<p>Method Man earned his name from the film "Method Man" (1979), which he watched obsessively as a teen. The name stuck because he was always trying different methods to make it in the game.
-A$AP Rocky's "A$AP" stands for "Always Strive And Prosper" – but also "Assassinating Snitches and Police." It's a perfect example of how rap names often carry multiple meanings.
-Ice Cube got his name from his older brother. During arguments, he'd threaten to throw his little brother into a freezer and turn him into an ice cube. The name stuck, proving even family roasts can turn into rap gold.
-Travis Scott borrowed his name from a favorite uncle named Travis and Kid Cudi's real first name (Scott). It shows how rap names can be tributes to both family and musical influences.
-MF DOOM took his name from the Marvel Comics villain Doctor Doom, creating an entire supervillain persona around it. He even wore a metal mask during performances, showing how a name can shape an entire artistic identity.</p>
+ <h2 className="text-3xl font-bold mb-6">The Stories Behind the Names</h2>
 
-<h3 className="text-2xl font-bold">Did You Know?</h3>
-<p>- Tyler, The Creator made his stage name at age 13 while making a MySpace page
-- Childish Gambino used an online Wu-Tang name generator (just like our generator, but way less cool)
-- 21 Savage's name combines a street gang number from his neighborhood with a reference to his perceived ruthless nature
-- Kid Cudi's name came from his high school nickname "Cudi" and adding "Kid" because he felt young in the game
+ <p className="mb-6">
+   Ever wonder how rap's biggest names got their monikers? The history of hip-hop names is as diverse as the culture itself. Some of the most iconic rap names came from unexpected places. Like 50 Cent, who took his name from a Brooklyn robber, or Eminem, which simply came from his initials M&M.
+ </p>
 
-          </p>
-        </div>
+ <p className="mb-6">
+   Method Man earned his name from the film "Method Man" (1979), which he watched obsessively as a teen. The name stuck because he was always trying different methods to make it in the game.
+ </p>
+
+ <p className="mb-6">
+   A$AP Rocky's "A$AP" stands for "Always Strive And Prosper" – but also "Assassinating Snitches and Police." It's a perfect example of how rap names often carry multiple meanings.
+ </p>
+
+ <p className="mb-6">
+   Ice Cube got his name from his older brother. During arguments, he'd threaten to throw his little brother into a freezer and turn him into an ice cube. The name stuck, proving even family roasts can turn into rap gold.
+ </p>
+
+ <p className="mb-6">
+   Travis Scott borrowed his name from a favorite uncle named Travis and Kid Cudi's real first name (Scott). It shows how rap names can be tributes to both family and musical influences.
+ </p>
+
+ <p className="mb-6">
+   MF DOOM took his name from the Marvel Comics villain Doctor Doom, creating an entire supervillain persona around it. He even wore a metal mask during performances, showing how a name can shape an entire artistic identity.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Did You Know?</h3>
+ 
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Tyler, The Creator made his stage name at age 13 while making a MySpace page</li>
+   <li>Childish Gambino used an online Wu-Tang name generator (just like our generator, but way less cool)</li>
+   <li>21 Savage's name combines a street gang number from his neighborhood with a reference to his perceived ruthless nature</li>
+   <li>Kid Cudi's name came from his high school nickname "Cudi" and adding "Kid" because he felt young in the game</li>
+ </ul>
+</div>
 
       <style jsx global>{`
         @keyframes fadeIn {

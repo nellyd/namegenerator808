@@ -135,7 +135,7 @@ export default function CharacterNameGenerator() {
         </h1>
 
         <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+          <p>
             Create unique character names for your stories, games, or roleplaying adventures. Bring your characters to life with our Character Name Generator!
             Choose your preferred genre and customize your character with various naming patterns and traits.
             Whether you're crafting a hero, villain, or sidekick, find the perfect name to match their personality 
@@ -333,6 +333,59 @@ export default function CharacterNameGenerator() {
           </div>
         )}
       </div>
+
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Essential Guide to Character Names</h2>
+
+ <h3 className="text-2xl font-semibold mb-4">Personality Traits: Reflective Names</h3>
+ <p className="mb-6">
+   Choose names that hint at character traits. A shy character might have a soft-sounding name like "Willow" or "Mira," while a bold leader might carry stronger sounds like "Rex" or "Victoria." Let the name's sound match the personality.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Cultural Background: Heritage Names</h3>
+ <p className="mb-6">
+   Honor your character's origins. A character from a Japanese family might be "Akiko," while a Scottish background suggests names like "Callum." Research naming conventions of specific cultures to maintain authenticity.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Time Period: Era-Appropriate Names</h3>
+ <p className="mb-6">
+   Match names to your setting's time period. Victorian-era characters might have names like "Clarence" or "Beatrice," while modern characters could be "Jayden" or "Zoe." Popular names shift with each generation.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Social Status: Class-Influenced Names</h3>
+ <p className="mb-6">
+   Consider social standing. Upper-class historical characters might have elaborate names like "Montgomery" or "Genevieve," while working-class characters often had simpler names like "Jack" or "Rose."
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Meaning and Symbolism: Significant Names</h3>
+ <p className="mb-6">
+   Use names whose meanings reflect character arcs. "Clara" (meaning bright) might suit a character bringing light to dark situations, while "Wolf" could suggest a lone survivor. Let meaning enhance character traits.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Nicknames: Evolution of Names</h3>
+ <p className="mb-6">
+   Consider how names change in daily use. "Elizabeth" might become "Lizzy," "Beth," or "Eliza" depending on who's speaking. These variations can show relationships between characters and add depth.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Memorable Quality: Distinct Names</h3>
+ <p className="mb-6">
+   Make names stand out without being confusing. In a story with "Mike," "Mark," and "Matt," readers might get lost. Mix up starting letters and syllable counts to help readers track characters.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Tips for Success</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Say names aloud to test flow</li>
+   <li>Avoid similar names in main cast</li>
+   <li>Consider cultural sensitivity</li>
+   <li>Check historical accuracy</li>
+   <li>Test nickname potential</li>
+   <li>Ensure names are pronounceable</li>
+ </ul>
+
+ <p className="mb-6">
+   Remember: The best character names feel natural while subtly supporting your story's themes and character development. They should work equally well in dialogue and narrative.
+ </p>
+</div>
 
       <style jsx global>{`
         @keyframes fadeIn {

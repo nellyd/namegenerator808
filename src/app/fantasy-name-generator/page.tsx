@@ -310,6 +310,64 @@ export default function FantasyNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Fantasy Names: A Creator's Guide</h2>
+
+ <h3 className="text-2xl font-semibold mb-4">Structure and Pattern: Building Strong Names</h3>
+ <p className="mb-6">
+   Fantasy names need a consistent internal logic. Whether crafting names like "Aerindel" or "Thormak," establish clear patterns in how syllables connect and flow. This helps create names that feel like they belong to the same world or culture, while remaining pronounceable and memorable.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Cultural Markers: Language Families</h3>
+ <p className="mb-6">
+   Different cultures within your world should have distinct naming conventions. Nordic-inspired cultures might favor names like "Bjornhild" or "Sigrid," while elven societies might use flowing names like "Caelindril" or "Faerondal." These patterns help readers instantly recognize cultural origins.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Social Status: Class and Rank</h3>
+ <p className="mb-6">
+   Names often reflect social standing. Noble houses might use grand, multi-syllabic names like "Ravencrest" or "Moonweaver," while common folk might have simpler names like "Tam" or "Bree." Consider how class structures influence naming conventions in your world.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Magic and Power: Mystical Names</h3>
+ <p className="mb-6">
+   Names tied to magic often carry distinct patterns. "Zeth'kur" or "Mael'thoras" might mark spellcasters, while sacred titles like "Lightbringer" or "Stormblade" could denote magical lineage. These names often use apostrophes, unusual letter combinations, or specific suffixes to convey supernatural elements.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Nature Connection: Environmental Names</h3>
+ <p className="mb-6">
+   Natural elements often inspire fantasy names. "Ashfall," "Wintermist," or "Dawnfire" connect characters to their environment or special abilities. These names can be especially effective for druids, rangers, or nature-linked cultures.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Ancient Legacy: Historical Names</h3>
+ <p className="mb-6">
+   Old bloodlines and legendary figures often have distinct naming patterns. Consider how names might evolve over generations, like "Kor'thad" becoming "Korthan" in modern usage. This adds depth to your world's linguistic history.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Professional Identity: Occupational Names</h3>
+ <p className="mb-6">
+   Trades and skills can influence names. "Fletcherson," "Ironweaver," or "Spellsmith" might indicate family traditions or personal abilities. These names help ground characters in their world's economic and social systems.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Prophecy and Destiny: Fated Names</h3>
+ <p className="mb-6">
+   Some characters might carry names of prophecy or destiny. "Shadowbane," "Truthseeker," or "Stormborn" can mark characters for greater purpose. Use these sparingly to maintain their impact.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Species and Race: Biological Names</h3>
+ <p className="mb-6">
+   Different species might have distinct naming conventions. Dwarven names might be robust and consonant-heavy like "Grimkhor," while fairy names might be light and musical like "Thistle." These patterns help readers quickly identify and remember character origins.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Title Evolution: Earned Names</h3>
+ <p className="mb-6">
+   Characters might gain new names through deeds or transformation. "Oakenhart" might become "Oakenblade" after proving martial prowess, or "Greenleaf" might change to "Goldleaf" upon mastering nature magic. These changes mark character growth and achievement.
+ </p>
+
+ <p className="mb-6">
+   Remember: effective fantasy names balance uniqueness with accessibility. They should intrigue readers while remaining memorable and pronounceable. The best names feel both exotic and natural, as if they've existed in your world for generations.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

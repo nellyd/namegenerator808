@@ -295,17 +295,48 @@ export default function CityNameGenerator() {
         )}
       </div>
 
-      <div className="space-y-3 mt-8 text-center">
-        <h2 className="text-3xl font-bold">Creating a memorable city names</h2>
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Crafting City Names: A Worldbuilder's Guide</h2>
 
-<p><strong>Cultural flavor:</strong> Names like New Constantinople or Neo Tokyo immediately suggest the city's heritage</p>
-<p><strong>Environment:</strong> Names like Frostreach or Sandspire tell us about the surrounding landscape</p>
-<p><strong>History:</strong> Places like King's Landing or Dragon's Gate hint at important past events</p>
-<p><strong>Atmosphere:</strong> Whether it's Shadowhaven or Brightport, the name sets expectations</p>
+ <h3 className="text-2xl font-semibold mb-4">Cultural Foundations</h3>
+ <p className="mb-6">
+   The name of a city is more than just a label—it's the first story you tell about your world. Every syllable can carry weight, history, and meaning that enriches your narrative and captivates your audience. Like rings in a tree trunk, city names often reveal layers of history and cultural evolution that span centuries.
+ </p>
 
-<p>Our city name generator helps you discover names that feel authentic to your world while being memorable and meaningful.</p> 
-<p>Ready to name your next great city? Let's build something legendary.</p>
-        </div>
+ <p className="mb-6">
+   Cultural heritage forms the bedrock of many iconic city names. Consider how "New Constantinople" immediately conjures images of Byzantine domes and ancient traditions transplanted to fresh soil. Similarly, "Neo Tokyo" speaks of a culture that has reinvented itself while honoring its roots. These names tell us not just where people are, but who they are—their values, their aspirations, and the civilizations they've built upon.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Geography's Influence</h3>
+ <p className="mb-6">
+   The natural world has always shaped human settlement, and this reality is reflected in names that speak to the environment. "Frostreach" suggests a frontier settlement pushing against the boundaries of habitable land, while "Sandspire" evokes a lone tower rising from desert wastes. Such names ground your city in its geography, helping readers understand the challenges and resources that shaped its development.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Echoes of the Past</h3>
+ <p className="mb-6">
+   Historical events leave their mark on the urban landscape through nomenclature. "King's Landing" speaks of a momentous arrival that changed the course of history, while "Dragon's Gate" hints at legends that may be more than mere myth. These names transform cities into monuments to their own past, each mention a reminder of pivotal moments that shaped their destiny.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Setting the Mood</h3>
+ <p className="mb-6">
+   The atmosphere of a place often finds its way into its name, creating immediate emotional resonance. "Shadowhaven" suggests sanctuary amid darkness, perhaps a refuge for those seeking shelter from greater dangers. In contrast, "Brightport" paints a picture of bustling harbors and prosperous trade under sunny skies. These names set the tone for the stories that might unfold within their bounds.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Layered Meanings</h3>
+ <p className="mb-6">
+   When crafting your own city names, consider the layers of meaning you can embed. A name might combine elements of language from different cultures, suggesting conquest or peaceful merger. It could incorporate geological features that have since vanished, hinting at how the landscape has changed. Even the way locals shorten or modify the official name can speak volumes about their relationship with their home.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Organic Evolution</h3>
+ <p className="mb-6">
+   The most compelling city names often feel like they've emerged organically from the history of their world, wearing their evolution on their sleeve. Think of how London's name carries echoes of its Roman, Celtic, and Saxon heritage, or how Singapore's name reflects an ancient legend of a lion-like creature. Your fictional cities can carry similar depth, their names serving as gateways to the broader world you've created.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Living Names</h3>
+ <p className="mb-6">
+   Remember that cities, like living things, grow and change. Their names might be abbreviated, translated, or transformed as different cultures encounter them. This linguistic evolution can add authenticity to your world, suggesting a dynamic history of cultural exchange and change that continues to shape the urban landscape.
+ </p>
+</div>
 
       <style jsx global>{`
         @keyframes fadeIn {

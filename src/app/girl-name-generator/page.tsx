@@ -127,8 +127,10 @@ export default function GirlNameGenerator() {
 
         <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
-            Generate beautiful and meaningful girl names from various cultures and styles.
-            Find the perfect name with optional meanings and middle names.
+          Finding the perfect name for a baby girl is a profound journey that blends tradition, 
+          meaning, and personal style. Whether you're seeking a name that honors family 
+          heritage, captures modern elegance, or tells a unique story, our Girl Name 
+          Generator helps you discover the perfect name for your little one.
           </p>
         </div>
         

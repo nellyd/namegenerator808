@@ -264,6 +264,83 @@ export default function ShipNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Vessel Naming: A Guide to Christening Ships and Boats</h2>
+
+ <h3 className="text-2xl font-semibold mb-4">Maritime Traditions: Classical Names</h3>
+ <p className="mb-6">
+   Seafaring traditions run deep in vessel naming. "Lady Luck," "Sea Spirit," or "Fortune's Wind" follow time-honored patterns. Many sailors still believe a ship's name carries deep significance for her journeys, making this choice particularly meaningful.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Natural Elements: Environmental Names</h3>
+ <p className="mb-6">
+   The sea itself inspires many names. "Wave Dancer," "Storm Seeker," or "Tide Runner" connect vessels to their environment. These names often reflect the relationship between ship and sea, suggesting how they move through water.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Wildlife Connection: Creature Names</h3>
+ <p className="mb-6">
+   Marine life offers rich naming possibilities. "Blue Dolphin," "Sea Eagle," or "Grey Whale" celebrate ocean inhabitants. Land animals can work too—"Swift Fox" or "Desert Lion" can suggest speed or power.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Personal Connection: Family Names</h3>
+ <p className="mb-6">
+   Many boats carry names of loved ones. "Sarah Jane," "Sweet Caroline," or "Emma Rose" keep family close at heart. Some combine family names with maritime terms: "Jennifer's Wake" or "Katie's Harbor."
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Professional Identity: Working Names</h3>
+ <p className="mb-6">
+   Commercial vessels often reflect their purpose. "Net Profit," "Lucky Catch," or "Line Master" suit fishing boats, while "Island Express" works for passenger craft. These names balance practicality with personality.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Mythical Reference: Legendary Names</h3>
+ <p className="mb-6">
+   Mythology provides timeless inspiration. "Poseidon's Pride," "Calypso," or "Neptune's Charm" connect vessels to maritime legends. These names carry historical weight while adding mystery.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Humor and Wordplay: Clever Names</h3>
+ <p className="mb-6">
+   Wit has its place in boat naming. "Unsinkable II," "Knot Working," or "Sea's The Day" show personality. Just ensure the humor stays seaworthy—some jokes age better than others.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Speed and Power: Performance Names</h3>
+ <p className="mb-6">
+   Names can suggest vessel capabilities. "Lightning Strike," "Wind Runner," or "Swift Current" imply speed, while "Power Play" or "Force Ten" suggest strength.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Emotional Connection: Aspirational Names</h3>
+ <p className="mb-6">
+   Some names reflect owners' dreams or feelings. "Freedom," "Serenity Now," or "Wanderlust" speak to why people take to the water. These names often capture the escape that boating provides.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Heritage and History: Cultural Names</h3>
+ <p className="mb-6">
+   Cultural background influences naming. "Celtic Star," "Nordic Prince," or "Dragon's Wake" might reflect owner heritage. Historical events can also inspire: "Victory," "Pioneer," or "Heritage."
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Essential Considerations</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Be easily understood over radio</li>
+   <li>Avoid tempting fate (some sailors avoid boastful names)</li>
+   <li>Feel right both in port and at sea</li>
+   <li>Reflect the vessel's character</li>
+   <li>Consider maritime traditions</li>
+   <li>Stay memorable and distinct</li>
+ </ul>
+
+ <h3 className="text-2xl font-semibold mb-4">Practical Tips</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Check name availability in your registry</li>
+   <li>Consider how it sounds in emergency calls</li>
+   <li>Test how it looks written on the bow</li>
+   <li>Think about the story you'll tell when asked about the name</li>
+   <li>Remember it might be passed down to future owners</li>
+ </ul>
+
+ <p className="mb-6">
+   Your vessel's name is its first introduction to other seafarers—choose one that proudly announces its presence on the water.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

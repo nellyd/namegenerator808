@@ -164,7 +164,10 @@ export default function FoodNameGenerator() {
 
         <div className="space-y-3 text-center">
           <p className="text-gray-600 text-sm leading-relaxed">
-            Generate unique and appetizing dish names for your menu.
+          Crafting the perfect dish name is an art that blends creativity with appetite appeal. 
+          Whether you're naming a signature restaurant dish, designing a menu, 
+          or creating fictional cuisine, the right name can make mouths water before the first bite. 
+          Our Food Name Generator helps you plate up names as memorable as your meals.
           </p>
         </div>
         
@@ -295,12 +298,82 @@ export default function FoodNameGenerator() {
                       )}
                     </button>
                   </div>
+                  <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Culinary Naming: A Guide to Crafting Memorable Dish Names</h2>
+
+ <h3 className="text-2xl font-semibold mb-4">Cultural Heritage: Traditional Names</h3>
+ <p className="mb-6">
+   Honor culinary traditions while making them accessible. "Nonna's Secret Ragu" tells a story of family heritage, while "Twisted Tokyo Roll" suggests creative fusion. These names connect diners to food culture while hinting at unique interpretations.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Technique and Method: Process Names</h3>
+ <p className="mb-6">
+   Showcase your cooking methods. "Slow-Roasted," "Pan-Seared," or "House-Smoked" build anticipation and perceived value. "48-Hour Braised Short Rib" tells diners about the care taken in preparation, while "Flash-Fried Calamari" promises textural perfection.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Key Ingredients: Component Names</h3>
+ <p className="mb-6">
+   Lead with star ingredients but keep it selective. "Wild Mushroom & Truffle Risotto" sounds more appealing than listing every mushroom variety. "Maple-Bourbon Glazed" gives more intrigue than just "Sweet Glazed."
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Sensory Language: Descriptive Names</h3>
+ <p className="mb-6">
+   Use words that engage the senses. "Crispy," "Creamy," "Sizzling," or "Velvety" help diners taste the dish before ordering. "Golden-Crusted Sea Bass" creates more appetite appeal than simply "Baked Fish."
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Location and Origin: Geographic Names</h3>
+ <p className="mb-6">
+   Connect dishes to their roots. "Amalfi Lemon Tart" or "New Orleans BBQ Shrimp" set expectations for flavor profiles. These names transport diners and build authenticity for regional specialties.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">House Specialties: Signature Names</h3>
+ <p className="mb-6">
+   Make your unique dishes memorable. "The Infamous Kitchen Sink Burger" or "Chef Maria's Sunday Gravy" create talking points. These names should reflect your brand's personality while remaining approachable.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Seasonal Appeal: Temporal Names</h3>
+ <p className="mb-6">
+   Highlight freshness and seasonality. "Summer Harvest Bowl" or "Winter Truffle Pasta" connect dishes to specific times of year. This approach supports menu rotation and emphasizes fresh ingredients.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Modern Trends: Contemporary Names</h3>
+ <p className="mb-6">
+   Stay current without being gimmicky. "Ancient Grain Bowl" or "Plant-Powered Plate" appeal to modern diners while maintaining professionalism. Avoid trendy terms that might quickly date your menu.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Story Elements: Narrative Names</h3>
+ <p className="mb-6">
+   Share the dish's history. "Prohibition Punch" or "1950s Diner Burger" create context and interest. These names invite diners into a larger story about your restaurant or cuisine.
+ </p>
+
+ <p className="mb-6">
+   Remember: The best dish names balance information with intrigue. They should tell diners what to expect while leaving room for surprise and delight. Keep names clear enough to understand but special enough to remember.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Tips for Success</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Keep names pronounceable</li>
+   <li>Avoid over-describing</li>
+   <li>Be truthful to ingredients</li>
+   <li>Consider your audience</li>
+   <li>Maintain consistency with your brand</li>
+   <li>Test names with staff and customers</li>
+   <li>Update names seasonally when needed</li>
+ </ul>
+
+ <p className="mb-6">
+   The perfect dish name makes diners curious and confident in their choice, turning first-time orders into signature favorites.
+ </p>
+</div>
                 </div>
+                
               ))}
             </div>
           </div>
         )}
       </div>
     </div>
+
+    
   );
 }

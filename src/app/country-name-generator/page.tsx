@@ -346,6 +346,64 @@ export default function CountryNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">The Art of Country Names: A Worldbuilder's Guide</h2>
+
+ <h3 className="text-2xl font-semibold mb-4">National Identity: Core Meaning</h3>
+ <p className="mb-6">
+   A country's name embodies its people's collective identity, dreams, and history. These names become powerful symbols, uniting populations and marking their place in the world. Whether inspired by ancient tribes, legendary heroes, or natural features, the name tells the story of who these people are.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Landscape and Territory: Geographic Names</h3>
+ <p className="mb-6">
+   Geography shapes nations and their names. "Mountainhaven" speaks of alpine sanctuary, while "The Verdant Republic" suggests fertile abundance. From island chains to desert kingdoms, these names reflect how environment influences national identity and development.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Legacy and Time: Historical Names</h3>
+ <p className="mb-6">
+   Historical events and eras often inspire country names. "The United Provinces of the Silver Revolution" might reference an industrial uprising, while "The Commonwealth of the First Dawn" could mark a cultural awakening. Such names bridge past and present, preserving crucial moments in a nation's story.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Values and Beliefs: Cultural Names</h3>
+ <p className="mb-6">
+   Names often reflect core cultural values. Consider how "The Harmony Collective" or "The Sacred Confederation" instantly communicate societal priorities and beliefs. These names tell us what the people hold dear and how they see themselves.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Government and Power: Political Names</h3>
+ <p className="mb-6">
+   Political structure shapes nomenclature. "Republic," "Kingdom," "Empire," or "Free States" immediately convey systems of rule. "The Democratic Federation" tells us about governance, while "The Sovereign Collective" suggests a unique power structure.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Language Origins: Etymology</h3>
+ <p className="mb-6">
+   Names evolve through language. Like "England" coming from "Angle-land," your nations can carry linguistic traces of their origins. Consider how names might evolve from ancient languages within your world, adding historical depth.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Growth and Change: Evolving Names</h3>
+ <p className="mb-6">
+   Nations change, and names follow. "The Third Republic" implies previous versions, while "New Avalonia" suggests expansion. Revolutionary changes often bring new names, marking new chapters in history.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Local Usage: Common Names</h3>
+ <p className="mb-6">
+   Official names often differ from everyday use. Consider how locals might shorten or modify names, and how different cultures might have their own versions. This adds authenticity to your world's social interactions.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Imagery and Metaphor: Symbolic Names</h3>
+ <p className="mb-6">
+   Metaphorical names can powerfully evoke national identity. "The Golden Crescent" might reference a cherished symbol, while "The Eternal Flame Federation" suggests enduring principles or beliefs.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">International Context: Relational Names</h3>
+ <p className="mb-6">
+   Names can show how nations connect. "The Allied Territories" suggests political unions, while "The Free Cities of the Eastern Reach" implies both independence and regional ties. Consider how names reflect your world's international dynamics.
+ </p>
+
+ <p className="mb-6">
+   The best country names feel natural and inevitable, growing organically from your world's history, culture, and politics. They crystallize a nation's identity into a few carefully chosen words.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

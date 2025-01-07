@@ -284,44 +284,63 @@ export default function TeamNameGenerator() {
           </div>
         )}
       </div>
-<div className="space-y-3 text-center">
-      <h2 className="text-3xl font-bold">The Art of Naming Your Team: More Than Just Words</h2>
-<p>Ever notice how some team names just hit different? The Chicago Bulls doesn't just tell you where they're from - it captures raw power and determination. The Harlem Globetrotters speaks of both showmanship and worldwide appeal. Great team names aren't just labels; they're the first chapter of your team's story.</p>
 
-<h2 className="text-3xl font-bold">Why Your Team Name Matters</h2>
-<p>Your team name is your first uniform. It's what you chant in victory, what you defend in defeat, and what becomes legendary in the history books. Whether you're forming a sports team, an esports squad, or a workplace project group, your name sets the tone for everything that follows.</p>
+      <div className="max-w-3xl mx-auto mb-8">
+  <h2 className="text-3xl font-bold mb-6">The Art of Naming Your Team: More Than Just Words</h2>
 
-<h2 className="text-3xl font-bold">What Makes a Team Name Legendary?</h2>
+  <p className="mb-6">
+    Ever notice how some team names just hit different? The Chicago Bulls doesn't just tell you where they're from - it captures raw power and determination. The Harlem Globetrotters speaks of both showmanship and worldwide appeal. Great team names aren't just labels; they're the first chapter of your team's story.
+  </p>
 
-<h3 className="text-2xl font-semibold">It Tells Your Story</h3>
-<p>From the Pittsburgh Steelers honoring the city's industrial heritage to the Golden State Warriors evolving from Philadelphia to San Francisco to "Golden State" - great team names carry history. What's your team's story?</p>
+  <h3 className="text-2xl font-semibold mb-4">Why Your Team Name Matters</h3>
 
-<h3 className="text-2xl font-semibold">It Creates Unity</h3>
-<p>The New Zealand All Blacks aren't just named for their jersey color - it's become a symbol of unity and intimidation. Your team name should be something everyone proudly wears on their back.</p>
+  <p className="mb-6">
+    Your team name is your first uniform. It's what you chant in victory, what you defend in defeat, and what becomes legendary in the history books. Whether you're forming a sports team, an esports squad, or a workplace project group, your name sets the tone for everything that follows.
+  </p>
 
-<h3 className="text-2xl font-semibold">It Intimidates or Intrigues</h3>
-<p>The Detroit Red Wings? Sounds fast and powerful. The Minnesota Wild? Untamed and dangerous. Even corporate team names like "Innovation Ninjas" or "Digital Dragons" can spark interest and excitement.</p>
+  <h3 className="text-2xl font-semibold mb-4">What Makes a Team Name Legendary?</h3>
 
-<h3 className="text-2xl font-semibold">It Grows With You</h3>
-<p>The best names have staying power. The Los Angeles Lakers made no sense after moving from Minnesota (Land of 10,000 Lakes), but the name was too iconic to change. Choose a name that can evolve with your team.</p>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">It Tells Your Story</h4>
+    <p>From the Pittsburgh Steelers honoring the city's industrial heritage to the Golden State Warriors evolving from Philadelphia to San Francisco to "Golden State" - great team names carry history. What's your team's story?</p>
+  </div>
 
-<h2 className="text-3xl font-bold">Common Pitfalls to Avoid</h2>
-<ul>
-  <li>Names that are too inside-jokey (future members won't get it)</li>
-  <li>Hard-to-spell names (imagine your fans trying to search for you)</li>
-  <li>Culturally insensitive terms (many teams have had to rebrand)</li>
-  <li>Names that limit your growth (like "Junior Developers" if you plan to expand)</li>
-</ul>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">It Creates Unity</h4>
+    <p>The New Zealand All Blacks aren't just named for their jersey color - it's become a symbol of unity and intimidation. Your team name should be something everyone proudly wears on their back.</p>
+  </div>
 
-<h2 className="text-3xl font-bold">Real Examples That Work</h2>
-<ul>
-  <li><strong>Sports:</strong> Toronto Raptors (rode the Jurassic Park wave and stuck)</li>
-  <li><strong>Esports:</strong> Cloud9 (mysterious yet uplifting)</li>
-  <li><strong>Business:</strong> Amazon's "Two-Pizza Teams" (memorable and descriptive)</li>
-  <li><strong>Quiz Teams:</strong> "The Question Bandits" (playful yet competitive)</li>
-</ul>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">It Intimidates or Intrigues</h4>
+    <p>The Detroit Red Wings? Sounds fast and powerful. The Minnesota Wild? Untamed and dangerous. Even corporate team names like "Innovation Ninjas" or "Digital Dragons" can spark interest and excitement.</p>
+  </div>
 
-<p>Ready to find your team's identity? Our generator combines these principles with creativity to help you discover names that could become legendary. Let's create something unforgettable.</p>
+  <div className="mb-6">
+    <h4 className="text-xl font-semibold mb-3">It Grows With You</h4>
+    <p>The best names have staying power. The Los Angeles Lakers made no sense after moving from Minnesota (Land of 10,000 Lakes), but the name was too iconic to change. Choose a name that can evolve with your team.</p>
+  </div>
+
+  <h3 className="text-2xl font-semibold mb-4">Common Pitfalls to Avoid</h3>
+
+  <ul className="list-disc pl-6 space-y-2 mb-6">
+    <li>Names that are too inside-jokey (future members won't get it)</li>
+    <li>Hard-to-spell names (imagine your fans trying to search for you)</li>
+    <li>Culturally insensitive terms (many teams have had to rebrand)</li>
+    <li>Names that limit your growth (like "Junior Developers" if you plan to expand)</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mb-4">Real Examples That Work</h3>
+
+  <ul className="list-disc pl-6 space-y-2 mb-6">
+    <li><strong>Sports:</strong> Toronto Raptors (rode the Jurassic Park wave and stuck)</li>
+    <li><strong>Esports:</strong> Cloud9 (mysterious yet uplifting)</li>
+    <li><strong>Business:</strong> Amazon's "Two-Pizza Teams" (memorable and descriptive)</li>
+    <li><strong>Quiz Teams:</strong> "The Question Bandits" (playful yet competitive)</li>
+  </ul>
+
+  <p className="mb-6">
+    Ready to find your team's identity? Our generator combines these principles with creativity to help you discover names that could become legendary. Let's create something unforgettable.
+  </p>
 </div>
 
       <style jsx global>{`

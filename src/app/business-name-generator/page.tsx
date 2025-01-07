@@ -266,6 +266,117 @@ export default function BusinessNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">Crafting Your Business Identity: A Complete Naming Guide</h2>
+
+ <p className="mb-6">
+   A business name is more than just a label—it's the cornerstone of your brand identity, the first impression you make on potential customers, and the foundation of your business legacy. The right name can propel your success, while the wrong one might limit your growth.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Step-by-Step Business Naming Process</h3>
+
+ <div className="mb-6">
+   <h4 className="text-xl font-semibold mb-3">1. Foundation Building</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Define your brand values and mission</li>
+     <li>List your key products or services</li>
+     <li>Identify your target market</li>
+     <li>Map out your 5-year business vision</li>
+     <li>Write down your unique selling points</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">2. Market Research</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Analyze competitor names in your industry</li>
+     <li>Study successful brands in other sectors</li>
+     <li>Note naming trends to follow or avoid</li>
+     <li>Identify gaps in the market</li>
+     <li>Research your target audience preferences</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">3. Name Generation</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Brainstorm words related to your business</li>
+     <li>Consider different naming styles</li>
+     <li>Create combinations of key terms</li>
+     <li>List potential alternatives</li>
+     <li>Keep a running document of ideas</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">4. Practical Evaluation</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Check domain name availability</li>
+     <li>Search trademark databases</li>
+     <li>Look for social media handle availability</li>
+     <li>Consider international implications</li>
+     <li>Test for pronunciation and spelling ease</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">5. Testing and Feedback</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Share with potential customers</li>
+     <li>Get feedback from industry peers</li>
+     <li>Create sample logos and branding</li>
+     <li>Test in different contexts</li>
+     <li>Consider cultural implications</li>
+   </ul>
+ </div>
+
+ <h3 className="text-2xl font-semibold mb-4">Naming Styles to Consider</h3>
+
+ <h4 className="text-xl font-semibold mb-3">Descriptive Names: Direct Approach</h4>
+ <p className="mb-6">
+   Names that clearly state what you do. "Quick Print Solutions" or "Fresh Farm Delivery" tell customers exactly what to expect. These names are clear but might limit future expansion.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Invented Names: Creative Freedom</h4>
+ <p className="mb-6">
+   Created words like "Xerox" or "Kodak" offer uniqueness and trademark protection. They require more marketing but can become strong, distinctive brands.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Founder Names: Personal Touch</h4>
+ <p className="mb-6">
+   Using your name like "Ford" or "Disney" adds authenticity and personal connection. Consider if you plan to sell the business later.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Metaphorical Names: Emotional Appeal</h4>
+ <p className="mb-6">
+   Names like "Amazon" or "Apple" use familiar words in new contexts. They're memorable and allow for brand story development.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Acronyms: Professional Style</h4>
+ <p className="mb-6">
+   "IBM" or "BMW" evolved from longer names. Consider if the full name and shortened version both work.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Tips for Success</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Keep it simple and memorable</li>
+   <li>Ensure easy pronunciation</li>
+   <li>Consider international markets</li>
+   <li>Test for negative associations</li>
+   <li>Check all legal requirements</li>
+   <li>Verify trademark availability</li>
+   <li>Think about visual branding potential</li>
+   <li>Plan for digital presence</li>
+ </ul>
+
+ <h3 className="text-2xl font-semibold mb-4">Key Requirements</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Reflect your brand values</li>
+   <li>Appeal to your target market</li>
+   <li>Be adaptable for growth</li>
+   <li>Work across all platforms</li>
+   <li>Stand out from competitors</li>
+   <li>Be legally available</li>
+   <li>Sound professional and credible</li>
+ </ul>
+
+ <p className="mb-6">
+   The perfect business name balances creativity with practicality, setting the foundation for your brand's future success.
+ </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

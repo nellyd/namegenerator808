@@ -308,6 +308,96 @@ return (
       )}
     </div>
 
+    <div className="max-w-3xl mx-auto">
+ <h2 className="text-3xl font-bold mb-6">Crafting the Perfect Feline Name: A Cat Lover's Guide</h2>
+
+ <p className="mb-6">
+   Naming a cat is one of the first bonding experiences you'll share with your new companion. While they may ignore their name at times (as cats famously do), choosing the right one sets the tone for your years together. Whether inspired by personality, appearance, or pure whimsy, your cat's name should bring a smile every time you say it.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Step-by-Step Guide to Naming Your Cat</h3>
+
+ <div className="mb-6">
+   <h4 className="text-xl font-semibold mb-3">1. Wait and Observe</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Give it 24-48 hours after bringing them home</li>
+     <li>Watch their unique behaviors and quirks</li>
+     <li>Note distinctive physical features</li>
+     <li>Observe their energy levels and personality</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">2. List Your Inspirations</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Write down words that describe their appearance</li>
+     <li>Note any behaviors that stand out</li>
+     <li>Consider your favorite books, movies, or characters</li>
+     <li>Think about your hobbies and interests</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">3. Test and Try</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Say potential names out loud</li>
+     <li>Practice calling the name across a room</li>
+     <li>Try different nicknames that could stem from it</li>
+     <li>See how it sounds with your last name</li>
+   </ul>
+
+   <h4 className="text-xl font-semibold mb-3">4. Get Feedback</h4>
+   <ul className="list-disc pl-6 space-y-2 mb-4">
+     <li>Share top choices with family members</li>
+     <li>Test with friends who'll be visiting often</li>
+     <li>Consider if you'd feel comfortable at the vet</li>
+     <li>Check if kids can pronounce it easily</li>
+   </ul>
+ </div>
+
+ <h3 className="text-2xl font-semibold mb-4">Naming Categories to Consider</h3>
+
+ <h4 className="text-xl font-semibold mb-3">Personality and Behavior: Character Names</h4>
+ <p className="mb-6">
+   Watch how your cat moves and acts. A graceful jumper might be "Aria" or "Nimbus," while a mischievous troublemaker could be "Loki" or "Rascal." Let their unique quirks inspire their name.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Physical Features: Appearance Names</h4>
+ <p className="mb-6">
+   Draw inspiration from your cat's looks. "Shadow" or "Midnight" for black cats, "Ginger" or "Rusty" for orange ones. Consider unique markings, eye color, or distinctive features like "Socks" or "Patches."
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Pop Culture: Fun References</h4>
+ <p className="mb-6">
+   Name them after favorite characters. "Khaleesi" for a commanding queen cat, "Thor" for a loud voice, or "Sherlock" for a curious explorer. Just keep it something you won't mind calling out loud.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Food and Drinks: Tasty Names</h4>
+ <p className="mb-6">
+   Foodies might enjoy names like "Biscuit," "Pepper," or "Mochi." These names tend to be cute and memorable while reflecting the owner's interests.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Classic Names: Timeless Choices</h4>
+ <p className="mb-6">
+   Some names never go out of style. "Luna," "Max," "Charlie," or "Bella" remain popular for good reason. They're easy to say and suit many personalities.
+ </p>
+
+ <h4 className="text-xl font-semibold mb-3">Size and Stature: Ironic Names</h4>
+ <p className="mb-6">
+   Sometimes humor works best. A tiny cat named "Tank" or a large cat called "Pixie" can be endearing. These contrasts often become part of their charm.
+ </p>
+
+ <h3 className="text-2xl font-semibold mb-4">Tips for Success</h3>
+ <ul className="list-disc pl-6 space-y-2 mb-6">
+   <li>Test the name by calling it out loud</li>
+   <li>Consider how it shortens as a nickname</li>
+   <li>Avoid names that sound like commands</li>
+   <li>Make sure all family members can pronounce it</li>
+   <li>Give your cat a few days to see if the name fits</li>
+   <li>Keep it something you won't mind telling the vet</li>
+ </ul>
+
+ <p className="mb-6">
+   Remember: Your cat may not come when called regardless of the name, but choosing one that makes you smile is what matters most.
+ </p>
+</div>
+
     <style jsx global>{`
       @keyframes fadeIn {
         from { opacity: 0; }
