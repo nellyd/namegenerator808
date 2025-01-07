@@ -291,14 +291,14 @@ export default function PenNameGenerator() {
         )}
       </div>
 
-      <div className="space-y-3 text-center">
-      <h2 className="text-3xl font-bold">Why Create a Pen Name?</h2>
+      <div className="mb-8 text-center">
+      <h3 className="text-2xl font-bold">Why Create a Pen Name?</h3>
 <p>Throughout literary history, authors have chosen pen names for various compelling reasons. 
   Some writers need a professional barrier between their personal and public lives. 
   Others want to write in different genres without confusing their readers. 
   Even today, many authors choose pen names for marketability or to better connect with their target audience.</p>
 
-  <h2 className="text-3xl font-bold">How to Choose Your Pen Name</h2>
+  <h3 className="text-2xl font-bold">How to Choose Your Pen Name</h3>
 <p>Finding the perfect pen name involves several key considerations:</p>
 
 <p><strong>Consider your genre:</strong> Romance readers might connect better with "Rose Sterling" than "Rachel Smith," while thriller readers might prefer "R.S. Stone"</p>
@@ -307,7 +307,7 @@ export default function PenNameGenerator() {
 <p><strong>Avoid famous associations:</strong> Steer clear of names too similar to well-known authors or public figures</p>
 <p><strong>Test the sound:</strong> Your pen name should be easy to pronounce, spell, and remember</p>
 
-<h2 className="text-3xl font-bold">Famous Authors Who Used Pen Names</h2>
+<h3 className="text-2xl font-bold">Famous Authors Who Used Pen Names</h3>
 <p>The tradition of pen names includes some of literature's most celebrated writers:</p>
 <p><strong>JK Rowling</strong> became Robert Galbraith to write crime fiction without Harry Potter expectations</p>
 <p><strong>Mark Twain</strong> was born Samuel Clemens but chose a riverboat term as his pen name</p>
