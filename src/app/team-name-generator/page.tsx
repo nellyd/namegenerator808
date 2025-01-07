@@ -284,7 +284,7 @@ export default function TeamNameGenerator() {
           </div>
         )}
       </div>
-      <div className="space-y-3 text-center">
+<div className="space-y-3 text-center">
       <h2 className="text-3xl font-bold">The Art of Naming Your Team: More Than Just Words</h2>
 <p>Ever notice how some team names just hit different? The Chicago Bulls doesn't just tell you where they're from - it captures raw power and determination. The Harlem Globetrotters speaks of both showmanship and worldwide appeal. Great team names aren't just labels; they're the first chapter of your team's story.</p>
 

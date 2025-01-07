@@ -143,8 +143,7 @@ export default function LastNameGenerator() {
         </h1>
 
         <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Generate authentic last names from various cultures and origins.
+          <p>Generate authentic last names from various cultures and origins.
             Create unique family names with different styles and modifiers.
           </p>
         </div>
