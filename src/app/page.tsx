@@ -40,6 +40,8 @@ const generators = [
   { name: 'Dog Name Generator', path: '/dog-name-generator', description: 'Generate a cool name for your new dog' },
   { name: 'Non-Binary Name Generator', path: '/non-binary-name-generator', description: 'Find Your Identity with Names That Fit You' },
   { name: 'Warhammer Name Generator', path: '/warhammer-name-generator', description: 'Generate Cool Warhammer Names' },
+  { name: 'Tau Empire Character Name Generator', path: '/tau-empire-character-name-generator', description: 'Generate Cool Tau Empire Names' },
+  { name: 'Rohan Character Name Generator', path: '/rohan-name-generator', description: 'Generate Cool Rohan Character Names' },
   { name: 'Dragon Ball Name Generator', path: '/dragon-ball-name-generator', description: 'Generate Cool Dragon Ball Names' },
 ];
 
@@ -149,7 +151,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © 2024 Name Generator Hub. All rights reserved.
+            © 2025 Name Generator Hub. All rights reserved.
           </p>
         </div>
       </footer>

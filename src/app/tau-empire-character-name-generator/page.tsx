@@ -6,16 +6,26 @@ import { tauNameData } from '@/data/tauNameData';
 interface FormData {
   caste: string;
   rank: string;
+  specialization: string;
+  battlesuit: string;
+  vessel: string;
   includeTitle: boolean;
   includeTeamNumber: boolean;
+  includeHonorific: boolean;
+  includeCasteSpecific: boolean;
 }
 
 export default function TauNameGenerator() {
   const [formData, setFormData] = useState<FormData>({
     caste: '',
     rank: '',
+    specialization: '',
+    battlesuit: '',
+    vessel: '',
     includeTitle: false,
-    includeTeamNumber: false
+    includeTeamNumber: false,
+    includeHonorific: false,
+    includeCasteSpecific: false
   });
   
   const [results, setResults] = useState<string[]>([]);
@@ -23,45 +33,56 @@ export default function TauNameGenerator() {
 
   const generateNames = () => {
     const names: string[] = [];
-    const { caste, rank, includeTitle, includeTeamNumber } = formData;
+    const { caste, rank, specialization, battlesuit, vessel, includeTitle, includeTeamNumber, includeHonorific, includeCasteSpecific } = formData;
 
     for (let i = 0; i < 8; i++) {
-      let name = '';
+      let nameParts: string[] = [];
       
-      // Add caste prefix
-      if (caste) {
-        name += tauNameData.castes[caste as keyof typeof tauNameData.castes];
+      // Add caste prefix and rank
+      if (caste && rank) {
+        nameParts.push(`${tauNameData.castes[caste as keyof typeof tauNameData.castes]}${rank}`);
       }
 
-      // Add rank
-      if (rank) {
-        name += rank;
-      }
-
-      // Add team number (optional)
+      // Add team number if selected
       if (includeTeamNumber) {
-        name += getRandomItem(tauNameData.teamNumbers);
+        nameParts.push(tauNameData.teamNumbers[Math.floor(Math.random() * tauNameData.teamNumbers.length)]);
       }
 
       // Add sept name
-      name += ' ' + getRandomItem(tauNameData.septs);
+      nameParts.push(tauNameData.septs[Math.floor(Math.random() * tauNameData.septs.length)]);
 
       // Add personal name
-      name += ' ' + getRandomItem(tauNameData.personalNames);
+      nameParts.push(tauNameData.personalNames[Math.floor(Math.random() * tauNameData.personalNames.length)]);
 
-      // Add title (optional)
-      if (includeTitle) {
-        name += ' ' + getRandomItem(tauNameData.titles);
+      // Add specialization if selected
+      if (specialization) {
+        nameParts.push(`(${specialization})`);
       }
 
-      names.push(name);
+      // Add caste-specific details
+      if (includeCasteSpecific) {
+        if (caste === 'fire' && battlesuit) {
+          nameParts.push(`[${battlesuit} Battlesuit]`);
+        } else if (caste === 'air' && vessel) {
+          nameParts.push(`[${vessel} Pilot]`);
+        }
+      }
+
+      // Add honorific if selected
+      if (includeHonorific && caste) {
+        const honorifics = tauNameData.honorifics[caste as keyof typeof tauNameData.honorifics];
+        nameParts.push(honorifics[Math.floor(Math.random() * honorifics.length)]);
+      }
+
+      // Add title if selected
+      if (includeTitle) {
+        nameParts.push(tauNameData.titles[Math.floor(Math.random() * tauNameData.titles.length)]);
+      }
+
+      names.push(nameParts.join(' '));
     }
 
     setResults(Array.from(new Set(names)));
-  };
-
-  const getRandomItem = <T extends any>(array: T[]): T => {
-    return array[Math.floor(Math.random() * array.length)];
   };
 
   const copyToClipboard = async (text: string, index: number) => {
@@ -98,7 +119,7 @@ export default function TauNameGenerator() {
               <select 
                 className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none"
                 value={formData.caste}
-                onChange={(e) => setFormData({...formData, caste: e.target.value})}
+                onChange={(e) => setFormData({...formData, caste: e.target.value, rank: '', specialization: ''})}
                 required
               >
                 <option value="">Select Caste</option>
@@ -110,26 +131,86 @@ export default function TauNameGenerator() {
               </select>
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Rank
-              </label>
-              <select 
-                className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none"
-                value={formData.rank}
-                onChange={(e) => setFormData({...formData, rank: e.target.value})}
-                required
-              >
-                <option value="">Select Rank</option>
-                <option value="la">Saal'la (Trainee/Cadet)</option>
-                <option value="ui">Saal'ui (Warrior/Veteran)</option>
-                <option value="vre">Saal'vre (Hero/Champion)</option>
-                <option value="el">Saal'el (Knight/Lord)</option>
-                <option value="o">Saal'o (Commander)</option>
-              </select>
-            </div>
+            {formData.caste && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Rank
+                </label>
+                <select 
+                  className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none"
+                  value={formData.rank}
+                  onChange={(e) => setFormData({...formData, rank: e.target.value})}
+                  required
+                >
+                  <option value="">Select Rank</option>
+                  {tauNameData.ranks[formData.caste as keyof typeof tauNameData.ranks].map((rank) => (
+                    <option key={rank} value={rank}>
+                      {rank === 'la' ? 'Saal\'la (Trainee)' :
+                       rank === 'ui' ? 'Saal\'ui (Veteran)' :
+                       rank === 'vre' ? 'Saal\'vre (Hero)' :
+                       rank === 'el' ? 'Saal\'el (Lord)' :
+                       'Saal\'o (Commander)'}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
 
-            <div className="flex items-center gap-4">
+            {formData.caste && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Specialization
+                </label>
+                <select 
+                  className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none"
+                  value={formData.specialization}
+                  onChange={(e) => setFormData({...formData, specialization: e.target.value})}
+                >
+                  <option value="">Select Specialization</option>
+                  {tauNameData.casteSpecific[formData.caste as keyof typeof tauNameData.casteSpecific].specializations.map((spec) => (
+                    <option key={spec} value={spec}>{spec}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            {formData.caste === 'fire' && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Battlesuit Type
+                </label>
+                <select 
+                  className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none"
+                  value={formData.battlesuit}
+                  onChange={(e) => setFormData({...formData, battlesuit: e.target.value})}
+                >
+                  <option value="">Select Battlesuit</option>
+                  {tauNameData.casteSpecific.fire.battlesuits.map((suit) => (
+                    <option key={suit} value={suit}>{suit}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            {formData.caste === 'air' && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Vessel Class
+                </label>
+                <select 
+                  className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none"
+                  value={formData.vessel}
+                  onChange={(e) => setFormData({...formData, vessel: e.target.value})}
+                >
+                  <option value="">Select Vessel</option>
+                  {tauNameData.casteSpecific.air.vessels.map((vessel) => (
+                    <option key={vessel} value={vessel}>{vessel}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <input
                   type="checkbox"
@@ -153,6 +234,32 @@ export default function TauNameGenerator() {
                 />
                 <label htmlFor="includeTitle" className="text-sm text-gray-700">
                   Add Title
+                </label>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  id="includeHonorific"
+                  checked={formData.includeHonorific}
+                  onChange={(e) => setFormData({...formData, includeHonorific: e.target.checked})}
+                  className="rounded text-orange-600 focus:ring-orange-500"
+                />
+                <label htmlFor="includeHonorific" className="text-sm text-gray-700">
+                  Add Honorific
+                </label>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  id="includeCasteSpecific"
+                  checked={formData.includeCasteSpecific}
+                  onChange={(e) => setFormData({...formData, includeCasteSpecific: e.target.checked})}
+                  className="rounded text-orange-600 focus:ring-orange-500"
+                />
+                <label htmlFor="includeCasteSpecific" className="text-sm text-gray-700">
+                  Include Role Details
                 </label>
               </div>
             </div>
