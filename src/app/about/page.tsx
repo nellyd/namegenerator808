@@ -73,7 +73,7 @@ Thank you for choosing NameGeno to be part of your creative journey. We’re exc
               Find the Perfect Name, Every Time
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Welcome to NameGeneratorHub.com, your ultimate name generator for any occasion! Whether you're naming a character, choosing a baby name, or just searching for creative inspiration, we've got you covered. With our smart tools, you can let us surprise you with random names or take the wheel and customize your search. Explore names from different cultures, eras, and styles. Filter by popularity, gender, and even unique word associations. Our generators even create completely original names to help you stand out.
+              Welcome to NameGeno.com, your ultimate name generator for any occasion! Whether you're naming a character, choosing a baby name, or just searching for creative inspiration, we've got you covered. With our smart tools, you can let us surprise you with random names or take the wheel and customize your search. Explore names from different cultures, eras, and styles. Filter by popularity, gender, and even unique word associations. Our generators even create completely original names to help you stand out.
             </p>
           </section>
 

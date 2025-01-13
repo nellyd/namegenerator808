@@ -144,8 +144,8 @@ function MiddleNameGenerator() {
           Middle Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+        <div className="space-y-3 text-center">
+          <p>
             Find the perfect middle name that complements your first name.
             Choose from traditional, modern, nature-inspired, and more.
           </p>

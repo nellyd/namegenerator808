@@ -174,8 +174,8 @@ export default function VillainNameGenerator() {
           Villain Name Generator
         </h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+        <div className="space-y-3 text-center">
+          <p>
             Create the perfect name for your antagonist! Whether you're crafting a 
             sci-fi supervillain, a fantasy dark lord, or a criminal mastermind, 
             our generator will help you find the perfect sinister name. Choose your 

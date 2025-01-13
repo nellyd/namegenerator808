@@ -163,7 +163,7 @@ export default function FoodNameGenerator() {
         </h1>
 
         <div className="space-y-3 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+          <p>
           Crafting the perfect dish name is an art that blends creativity with appetite appeal. 
           Whether you're naming a signature restaurant dish, designing a menu, 
           or creating fictional cuisine, the right name can make mouths water before the first bite. 

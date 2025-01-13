@@ -56,7 +56,7 @@ export default function Home() {
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Discover the perfect name for any purpose. Our collection of name generators 
-            helps you create unique names for characters, businesses, pets, and much more.
+            helps you create unique names for characters, businesses, pets, Warhammer characters and much more.
           </p>
         </div>
 

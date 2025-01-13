@@ -154,13 +154,10 @@ return (
   <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white p-8">
     <div className="max-w-md mx-auto">
       <h1 className="text-4xl font-bold mb-4 text-center text-gray-800 flex items-center justify-center gap-2">
-        <Wand2 className="h-8 w-8 text-blue-600" />
-        Twin Name Generator
-      </h1>
+        <Wand2 className="h-8 w-8 text-blue-600" />Twin Name Generator</h1>
 
-      <div className="mb-8 text-center">
-        <p className="text-gray-600 text-sm leading-relaxed">
-          Finding the perfect names for twins? Our generator creates harmonious name 
+      <div className="space-y-3 text-center">
+        <p>Finding the perfect names for twins? Our generator creates harmonious name 
           pairs that work beautifully together. Choose from matching patterns, 
           themes, and styles to find the ideal combination for your twins. Whether 
           you prefer classic pairs, modern duos, or nature-inspired combinations, 

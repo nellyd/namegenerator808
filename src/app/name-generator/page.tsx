@@ -103,23 +103,16 @@ export default function NameGenerator() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white p-8">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-center text-gray-800 flex items-center justify-center gap-2">
-          <User className="h-8 w-8 text-blue-600" />
-          Name Generator
-        </h1>
+          <User className="h-8 w-8 text-blue-600" />Name Generator</h1>
 
-        <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
-            Generate random names with optional titles and formatting.
-          </p>
-        </div>
+        <div className="space-y-3 text-center">
+          <p>Generate random names with optional titles and formatting.</p></div>
         
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Gender
-                </label>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Gender</label>
                 <select 
                   className="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
                   value={formData.gender}
