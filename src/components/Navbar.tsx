@@ -8,7 +8,9 @@ export default function Navbar() {
           NameGeno
         </Link>
         <div className="hidden md:flex space-x-4">
-          <Link href="/" className="hover:text-blue-100">Name Generators</Link>
+          <Link href="/nickname-generator" className="hover:text-blue-100">Nickname</Link>
+          <Link href="/fantasy-name-generator" className="hover:text-blue-100">Fantasy Name</Link>
+          <Link href="/warhammer-name-generator" className="hover:text-blue-100">Warhammer</Link>
           <Link href="/about" className="hover:text-blue-100">About</Link>
         
         </div>

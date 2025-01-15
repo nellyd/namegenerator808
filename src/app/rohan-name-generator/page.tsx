@@ -82,7 +82,7 @@ export default function RohanNameGenerator() {
         </h1>
 
         <div className="mb-8 text-center">
-          <p className="text-gray-600 text-sm leading-relaxed">
+        <p className="mb-6">
             Generate authentic names for the Horse-lords of Rohan. For the Riddermark!
           </p>
         </div>

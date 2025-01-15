@@ -75,13 +75,13 @@ export default function PirateNameGenerator() {
         </h1>
 
         <div className="max-w-3xl mx-auto">
-  <h2 className="text-3xl font-bold mb-6">Discover Your Pirate Identity</h2>
+  <h2 className="text-3xl font-bold mb-6 text-center">Discover Your Pirate Identity</h2>
 
-  <p className="mb-6">
+  <p className="mb-6 text-center">
     From Blackbeard to Jack Sparrow, the most notorious pirates sailed into legend with names that struck fear and sparked imagination. Whether you're planning a pirate-themed party, creating a character for a game, or just curious about what you'd be called on the high seas, our pirate name generator will help you join the ranks of these legendary seafarers.
   </p>
 
-  <h3 className="text-2xl font-semibold mb-4">How Pirates Got Their Names</h3>
+  <h3 className="text-2xl font-semibold mb-4 text-center">How Pirates Got Their Names</h3>
 
   <p className="mb-6">
     Historical pirates earned their names from physical features (Calico Jack, Black Sam), fearsome reputations (Blackbeard), or memorable deeds (Black Bart earned his name from his ruthless efficiency). Some names were meant to intimidate, others to build mystique, but all became part of pirate lore.
