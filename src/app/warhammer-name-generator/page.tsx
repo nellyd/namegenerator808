@@ -190,6 +190,23 @@ export default function WarhammerNameGenerator() {
           </div>
         )}
       </div>
+      
+<div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">Warhammer Character Name Generator</h2>
+
+  <p className="mb-6">
+    The Old World is vast, treacherous, and teeming with danger—perfect for a hero (or villain) like you. But before you can lead armies to glory, carve your name into the annals of history, or accidentally summon a daemon, you need a name that strikes fear, awe, or at least mild curiosity into the hearts of your enemies. Enter the <strong>Warhammer Character Name Generator</strong>, your one-stop shop for names as epic as the battles you’ll fight.
+  </p>
+
+  <p className="mb-6">
+    Whether you’re a grim-faced Dwarf slayer seeking a worthy doom, a cunning Skaven plotting world domination (quietly, of course), or a noble High Elf with a flair for the dramatic, this generator has you covered. Drawing from the rich lore of Warhammer Fantasy, each name is crafted to fit the unique cultures and quirks of the Old World’s many races. From the guttural might of “Grimgor Ironhide” to the regal elegance of “Alarielle the Radiant,” your name will be as unforgettable as your deeds.
+  </p>
+
+  <p className="mb-6">
+    So, sharpen your blade, ready your spells, and prepare to carve your legend into the heart of the Warhammer world. Will you be a “Thorgar Bloodfist,” a berserker with a temper as fiery as your axe? Or perhaps a “Lysandra Nightshade,” a shadowy assassin with a penchant for poetic justice? The choice is yours—forge your name, and may Sigmar (or the Chaos Gods) guide your path!
+  </p>
+</div>
+
     </div>
   );
 }

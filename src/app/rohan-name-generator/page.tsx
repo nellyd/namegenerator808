@@ -206,6 +206,22 @@ export default function RohanNameGenerator() {
         )}
       </div>
 
+<div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">Rohan Character Name Generator</h2>
+
+  <p className="mb-6">
+    Forth Eorlingas! The winds of the Riddermark call to you, and the time has come to saddle up and ride into legend. Whether you’re a shieldmaiden of fierce renown, a rider of the King’s éored, or a humble farmer turned hero, every warrior of Rohan deserves a name worthy of song and saga. But let’s face it—coming up with a name that captures the spirit of the horse-lords isn’t as easy as swinging a sword at an orc. That’s where this Rohan Character Name Generator comes in!
+  </p>
+
+  <p className="mb-6">
+    Inspired by the rich and complex stories of J.R.R. Tolkien’s Middle-earth, this generator draws from the Anglo-Saxon roots that Tolkien himself used to shape the culture of Rohan. From the thunderous “Éomund” to the steadfast “Hildred,” each name is crafted to evoke the courage, honor, and unyielding spirit of the Rohirrim. Whether you’re commanding an army of miniatures on the tabletop or crafting a tale of your own, these names will have you shouting, “Death!” before charging into battle.
+  </p>
+
+  <p className="mb-6">
+    So, ready your steed, polish your helm, and let the Rohan Character Name Generator bestow upon you a name that will echo through the halls of Meduseld. Will you be a “Theodred,” a leader of men? Or perhaps a “Brytta,” a generous soul beloved by all? The fate of the Mark is in your hands—ride forth and claim your destiny!
+  </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

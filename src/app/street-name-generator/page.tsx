@@ -256,6 +256,21 @@ function StreetNameGenerator() {
           </div>
         )}
       </div>
+      <div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">Street Name Generator</h2>
+
+  <p className="mb-6">
+    Every great city has its iconic streets—places where legends are born, deals are made, and the occasional stray cat reigns supreme. But what if you’re building a city of your own, crafting a gritty urban novel, or just need a name for that sketchy alley where your D&D rogue likes to hang out? That’s where the <strong>Street Name Generator</strong> comes in. No more boring “Main Street” or “Elm Avenue”—it’s time to give your streets some personality.
+  </p>
+
+  <p className="mb-6">
+    From the fog-drenched cobblestones of “Whisper Lane” to the neon-lit chaos of “Cybernetic Drive,” this generator is packed with names that evoke mystery, danger, and a touch of urban charm. Whether you’re designing a dystopian metropolis, a quaint medieval village, or a cyberpunk sprawl, these names will set the scene and maybe even inspire a story or two. After all, every street has a tale to tell—what’s yours?
+  </p>
+
+  <p className="mb-6">
+    So, grab your map, dust off your worldbuilding notes, and let the Street Name Generator pave the way to your next great adventure. Will it be “Raven’s End,” where shadows hide more than just secrets? Or “Golden Circuit,” where the wealthy flaunt their fortunes and the desperate plot their next move? The city is yours to shape—step into its streets and make them unforgettable.
+  </p>
+</div>
     </div>
   );
 }

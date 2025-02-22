@@ -311,6 +311,22 @@ export default function TauNameGenerator() {
         )}
       </div>
 
+      <div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">T’au Empire Character Name Generator</h2>
+
+  <p className="mb-6">
+    The Greater Good calls, and it needs a name worthy of your service. Whether you’re a Fire Warrior holding the line against the enemies of the T’au, a cunning Ethereal guiding your people to unity, or a tech-savvy Earth Caste engineer revolutionizing the battlefield, your name should reflect your dedication to the T’au’va. Enter the <strong>T’au Empire Character Name Generator</strong>—your key to a name as precise and purposeful as a well-aimed pulse rifle shot.
+  </p>
+
+  <p className="mb-6">
+    Drawing inspiration from the sleek, futuristic culture of the T’au Empire, this generator crafts names that embody harmony, innovation, and the unyielding spirit of progress. From the stoic “Kais’Vash” to the visionary “Aun’Doran,” each name is designed to fit seamlessly into the ranks of the T’au. Whether you’re leading a cadre, piloting a battlesuit, or negotiating alliances for the Greater Good, your name will resonate with the ideals of your people.
+  </p>
+
+  <p className="mb-6">
+    So, ready your pulse carbine, calibrate your drone, and step into the light of the T’au’va. Will you be “Shas’O Kais’Mont’yr,” a commander whose strategies are as sharp as your blade? Or perhaps “Fio’El Vash’Tol,” an Earth Caste genius whose inventions turn the tide of war? The fate of the T’au Empire is in your hands—forge your name, and let it echo across the stars.
+  </p>
+</div>
+
       <style jsx global>{`
         @keyframes fadeIn {
           from { opacity: 0; }

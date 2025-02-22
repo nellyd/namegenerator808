@@ -230,43 +230,6 @@ export default function LastNameGenerator() {
               </button>
             </form>
           </div>
-
-          <div className="max-w-3xl mx-auto">
-  <h2 className="text-3xl font-bold mb-6">The "Escape-Your-Future-In-Laws' Last Name" Generator</h2>
-
-  <p className="mb-6">
-    So, your partner’s last name is… <em>questionable</em>. Maybe it’s “Butts,” or “Snodgrass,” or something that sounds like a rejected Harry Potter spell. Or maybe your soon-to-be spouse wants to hyphenate, and now you’re staring down the barrel of becoming “Smith-Wigglesworth” for the rest of your life. Fear not, brave soul! Tradition is overrated anyway.
-  </p>
-
-  <p className="mb-6">
-    Introducing the <strong>Random Last Name Generator</strong>—your ticket to a surname that won’t make you cringe every time you introduce yourself at parties.  
-  </p>
-
-  <p className="mb-6">
-    Here’s the deal: your brain is a traitor. It’s impossible to think of a truly random last name. You’ll either default to your cousin’s ex’s dog’s name or something you heard on a true crime podcast. Let us save you from yourself.
-  </p>
-
-  <p className="mb-6">
-    With the click of a button, you could be:  
-    <ul className="list-disc pl-8 mb-6">
-      <li><strong>A majestic “Thunderhoof”</strong> (perfect for equestrians or people who just really love goats).</li>
-      <li><strong>A mysterious “Nightshade”</strong> (ideal for aspiring vampires or gardeners with a dark side).</li>
-      <li><strong>A sophisticated “Bumblefluff”</strong> (because why not?).</li>
-    </ul>
-  </p>
-
-  <p className="mb-6">
-    Say goodbye to awkward family reunions and hello to a last name that’s 100% <em>you</em>. Or at least 100% random.  
-  </p>
-
-  <p className="mb-6">
-    <strong>Disclaimer:</strong> We are not responsible for any accidental naming of yourself after a medieval cheese or a Pokémon. But hey, that’s part of the fun, right?  
-  </p>
-
-  <p className="mb-6">
-    Ready to roll the dice on your destiny? Let’s find out if you’re a “McPickle” or a “Frostbloom”! 🎲✨
-  </p>
-</div>
   
           {results.length > 0 && (
             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -313,6 +276,43 @@ export default function LastNameGenerator() {
             </div>
           )}
         </div>
+
+        <div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">The "Escape-Your-Future-In-Laws' Last Name" Generator</h2>
+
+  <p className="mb-6">
+    So, your partner’s last name is… <em>questionable</em>. Maybe it’s “Butts,” or “Snodgrass,” or something that sounds like a rejected Harry Potter spell. Or maybe your soon-to-be spouse wants to hyphenate, and now you’re staring down the barrel of becoming “Smith-Wigglesworth” for the rest of your life. Fear not, brave soul! Tradition is overrated anyway.
+  </p>
+
+  <p className="mb-6">
+    Introducing the <strong>Random Last Name Generator</strong>—your ticket to a surname that won’t make you cringe every time you introduce yourself at parties.  
+  </p>
+
+  <p className="mb-6">
+    Here’s the deal: your brain is a traitor. It’s impossible to think of a truly random last name. You’ll either default to your cousin’s ex’s dog’s name or something you heard on a true crime podcast. Let us save you from yourself.
+  </p>
+
+  <p className="mb-6">
+    With the click of a button, you could be:  
+    <ul className="list-disc pl-8 mb-6">
+      <li><strong>A majestic “Thunderhoof”</strong> (perfect for equestrians or people who just really love goats).</li>
+      <li><strong>A mysterious “Nightshade”</strong> (ideal for aspiring vampires or gardeners with a dark side).</li>
+      <li><strong>A sophisticated “Bumblefluff”</strong> (because why not?).</li>
+    </ul>
+  </p>
+
+  <p className="mb-6">
+    Say goodbye to awkward family reunions and hello to a last name that’s 100% <em>you</em>. Or at least 100% random.  
+  </p>
+
+  <p className="mb-6">
+    <strong>Disclaimer:</strong> We are not responsible for any accidental naming of yourself after a medieval cheese or a Pokémon. But hey, that’s part of the fun, right?  
+  </p>
+
+  <p className="mb-6">
+    Ready to roll the dice on your destiny? Let’s find out if you’re a “McPickle” or a “Frostbloom”! 🎲✨
+  </p>
+</div>
   
         <style jsx global>{`
           @keyframes fadeIn {
