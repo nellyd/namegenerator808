@@ -63,7 +63,7 @@ export const streetNameData = {
       ],
       american: [
         'Pike', 'Highway', 'Trail', 'Parkway', 'Loop', 'Junction',
-        'Circle', 'Crossing', 'Ridge', 'Run', 'Pass', 'View'
+        'Circle', 'Crossing', 'Ridge', 'Run', 'Pass', 'View', 'Boulevard'
       ]
     },
   

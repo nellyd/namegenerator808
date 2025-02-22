@@ -106,7 +106,17 @@ export default function NameGenerator() {
           <User className="h-8 w-8 text-blue-600" />Name Generator</h1>
 
         <div className="space-y-3 text-center">
-          <p>Generate random names with optional titles and formatting.</p></div>
+          <p>Generate random names with optional titles and formatting.</p>
+          <p>Finding the perfect name can be tricky, but that’s where we come in! Whether 
+            you need a creative character name, a unique business name, or just 
+            something fun to spark inspiration, our Name Generator is here to help. 
+            Simply enter your preferences, hit the button, and let the magic happen! 
+            No more endless brainstorming—just quick, clever, and memorable 
+            names at your fingertips.</p>
+
+<p>Give it a try and see what amazing names you can discover!</p>
+          
+          </div>
         
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <form onSubmit={handleSubmit} className="space-y-4">

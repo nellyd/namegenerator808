@@ -6,7 +6,8 @@ export const nameData = {
         'James', 'John', 'Robert', 'Michael', 'William',
         'David', 'Richard', 'Joseph', 'Thomas', 'Charles',
         'Christopher', 'Daniel', 'Matthew', 'Anthony', 'Donald',
-        'Alexander', 'Benjamin', 'Henry', 'Oliver', 'Lucas'
+        'Alexander', 'Benjamin', 'Henry', 'Oliver', 'Lucas', 'Neil', 'Nial', 'Keith', 'Andrew', 'Jon', 'Carl', 'Tom', 'Carlos',
+        'Monty', 'Barron', 'Joe', 'Elvis', 'Brian'
       ],
       female: [
         'Mary', 'Patricia', 'Jennifer', 'Linda', 'Elizabeth',
