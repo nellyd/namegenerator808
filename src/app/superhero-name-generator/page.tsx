@@ -195,6 +195,47 @@ export default function SuperheroNameGenerator() {
           </div>
         )}
       </div>
+
+<div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">Superhero Name Generator</h2>
+
+  <p className="mb-6">
+    Every hero needs a name that strikes fear into the hearts of villains and inspires hope in the masses. But let’s face it—coming up with a superhero name is harder than stopping a speeding bullet. Should you go classic, like “Captain Thunderbolt”? Or edgy, like “Shadow Revenant”? Worry not, aspiring savior of the universe, because the <strong>Superhero Name Generator</strong> is here to save the day (and your brainstorming session).
+  </p>
+
+  <p className="mb-6">
+    Whether you’re a cosmic powerhouse, a street-level vigilante, or a tech genius in a suit of armor, this generator has the perfect alias for you. From the awe-inspiring “Aurora Strike” to the mysterious “Crimson Specter,” each name is crafted to match your powers, personality, and flair for the dramatic. After all, a hero is only as good as their name—and maybe their cape.
+  </p>
+
+  <p className="mb-6">
+    So, suit up, charge your superpowers, and let the Superhero Name Generator give you the title you deserve. Will you be “Nova Blaze,” a fiery protector of the innocent? Or “Phantom Circuit,” a stealthy hacker-hero fighting injustice from the shadows? The city—no, the world—needs you. Claim your name, and let the legends begin!
+  </p>
+</div>
+
+<div className="max-w-3xl mx-auto">
+  <h2 className="text-3xl font-bold mb-6">How to Create Your Perfect Superhero Name</h2>
+
+  <p className="mb-6">
+    Crafting the perfect superhero name is an art form—one that requires equal parts creativity, strategy, and a dash of dramatic flair. Your name isn’t just a label; it’s your brand, your battle cry, and the first thing villains will scream as they flee in terror. So, how do you create a name that’s worthy of your heroic deeds? Let’s break it down.
+  </p>
+
+  <p className="mb-6">
+    <strong>Start with your superhero’s powers and backstory.</strong> What makes them unique? Are they a cosmic entity forged in the heart of a dying star, or a street-smart vigilante with a knack for gadgets? Names like “Spiderman” and “The Flash” are directly tied to their abilities and origins. If your hero can control water, think of words like “Tidal,” “Aqua,” or “Tsunami.” If they’re a master of stealth, consider “Shadow,” “Phantom,” or “Wraith.” Your name should tell a story before you even throw the first punch.
+  </p>
+
+  <p className="mb-6">
+    <strong>Choose words that pack a punch.</strong> Superhero names should be short, memorable, and ooze power. Think “Thor,” “Storm,” or “Black Widow.” Avoid anything that sounds too soft or underwhelming—unless you’re going for irony, “Captain Pebble” might not strike fear into anyone’s heart. If your hero has earth-shattering strength, go bold with names like “Titan,” “Granite,” or “Quake.” The goal is to make villains think twice before crossing you.
+  </p>
+
+  <p className="mb-6">
+    <strong>Mix and match classic superhero elements.</strong> Many iconic names combine a descriptor with a power or theme. Words like “Captain,” “Doctor,” “Night,” or “Star” can add gravitas to your alias. Don’t forget color schemes, either—heroes like “Green Lantern” and “Black Panther” prove that a splash of color can make your name unforgettable. For example, if your hero is a tech genius with a blue color scheme, you might go with “Azure Dynamo,” “Circuit Blue,” or “Neon Warden.”
+  </p>
+
+  <p className="mb-6">
+    <strong>Put it all together and test it out.</strong> Say your name out loud. Does it roll off the tongue? Does it sound cool when shouted across a battlefield? If the answer is yes, you’ve got a winner. Remember, your superhero name is more than just words—it’s your legacy. So, whether you’re “Inferno Queen,” “Silver Specter,” or “Vortex,” wear it with pride and get ready to save the world.
+  </p>
+</div>
+
     </div>
   );
 }
