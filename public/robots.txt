@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://namegeno.com
+
+# Sitemaps
+Sitemap: https://namegeno.com/sitemap.xml
