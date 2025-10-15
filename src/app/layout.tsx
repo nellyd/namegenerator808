@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NameGen",
+  title: "NameGeno",
   description: "Generate perfect names for any purpose",
   verification: {
     google: "-ludGR0bVl1CDppkz_tkLRDETJdVqniSb9fFGpKIZ-Y",

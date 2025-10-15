@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import Navbar from '../components/Navbar';
+import Navbar from '@/components/Navbar';
 import { Wand2 } from 'lucide-react';
 
 // Define the generators data
@@ -151,7 +151,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © 2025 Name Generator Hub. All rights reserved.
+            © 2025 NameGeno.com All rights reserved.
           </p>
         </div>
       </footer>
