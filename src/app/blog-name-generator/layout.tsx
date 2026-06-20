@@ -1,9 +1,25 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Blog Name Generator",
+  description:
+    "Find a catchy, memorable blog name for any niche. Generate creative blog name ideas instantly to launch your website or newsletter.",
   keywords: "",
+  alternates: {
+    canonical: "/blog-name-generator",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/blog-name-generator",
+    title: "Blog Name Generator",
+    description: "Find a catchy, memorable blog name for any niche. Generate creative blog name ideas instantly to launch your website or newsletter.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Blog Name Generator",
+    description: "Find a catchy, memorable blog name for any niche. Generate creative blog name ideas instantly to launch your website or newsletter.",
+  },
 };
 
 export default function Layout({

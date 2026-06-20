@@ -2,8 +2,24 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Rapper Name Generator",
-  description: "",
+  description:
+    "Create a standout rapper name for your hip hop persona, stage act or gaming profile. Generate cool rap names in one click.",
   keywords: "",
+  alternates: {
+    canonical: "/rap-name-generator",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/rap-name-generator",
+    title: "Rapper Name Generator",
+    description: "Create a standout rapper name for your hip hop persona, stage act or gaming profile. Generate cool rap names in one click.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Rapper Name Generator",
+    description: "Create a standout rapper name for your hip hop persona, stage act or gaming profile. Generate cool rap names in one click.",
+  },
 };
 
 export default function Layout({

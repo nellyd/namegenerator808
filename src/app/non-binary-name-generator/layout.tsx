@@ -4,6 +4,21 @@ export const metadata: Metadata = {
   title: "Non-Binary Name Generator",
   description: "Find Your Identity with Names That Fit You",
   keywords: "",
+  alternates: {
+    canonical: "/non-binary-name-generator",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/non-binary-name-generator",
+    title: "Non-Binary Name Generator",
+    description: "Find Your Identity with Names That Fit You",
+  },
+  twitter: {
+    card: "summary",
+    title: "Non-Binary Name Generator",
+    description: "Find Your Identity with Names That Fit You",
+  },
 };
 
 export default function Layout({

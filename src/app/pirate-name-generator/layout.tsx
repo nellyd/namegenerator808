@@ -2,8 +2,24 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Pirate Name Generator",
-  description: "",
+  description:
+    "Generate authentic pirate names for your characters, games or crew. Find a fearsome pirate name fit for the high seas.",
   keywords: "",
+  alternates: {
+    canonical: "/pirate-name-generator",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/pirate-name-generator",
+    title: "Pirate Name Generator",
+    description: "Generate authentic pirate names for your characters, games or crew. Find a fearsome pirate name fit for the high seas.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Pirate Name Generator",
+    description: "Generate authentic pirate names for your characters, games or crew. Find a fearsome pirate name fit for the high seas.",
+  },
 };
 
 export default function Layout({

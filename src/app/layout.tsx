@@ -18,8 +18,30 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NameGeno",
-  description: "Generate perfect names for any purpose",
+  metadataBase: new URL("https://namegeno.com"),
+  title: {
+    default: "NameGeno: Free Name Generators for Every Purpose",
+    template: "%s | NameGeno",
+  },
+  description:
+    "Free name generators for babies, pets, characters, businesses, gamers and more. Generate unique, creative names instantly with NameGeno.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/",
+    title: "NameGeno: Free Name Generators for Every Purpose",
+    description:
+      "Free name generators for babies, pets, characters, businesses, gamers and more. Generate unique, creative names instantly.",
+  },
+  twitter: {
+    card: "summary",
+    title: "NameGeno: Free Name Generators for Every Purpose",
+    description:
+      "Free name generators for babies, pets, characters, businesses, gamers and more.",
+  },
   verification: {
     google: "-ludGR0bVl1CDppkz_tkLRDETJdVqniSb9fFGpKIZ-Y",
   },

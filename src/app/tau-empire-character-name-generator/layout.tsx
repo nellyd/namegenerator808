@@ -4,6 +4,21 @@ export const metadata: Metadata = {
   title: "T'au Empire Name Generator | Create Warhammer 40k T'au Names",
   description: "Generate authentic T'au Empire character names for Warhammer 40,000. Create names for Fire Warriors, Ethereals, and more with proper caste and rank conventions.",
   keywords: "tau names, warhammer 40k, tau empire, name generator, fire caste, ethereal caste, water caste, earth caste, air caste",
+  alternates: {
+    canonical: "/tau-empire-character-name-generator",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/tau-empire-character-name-generator",
+    title: "T'au Empire Name Generator | Create Warhammer 40k T'au Names",
+    description: "Generate authentic T'au Empire character names for Warhammer 40,000. Create names for Fire Warriors, Ethereals, and more with proper caste and rank conventions.",
+  },
+  twitter: {
+    card: "summary",
+    title: "T'au Empire Name Generator | Create Warhammer 40k T'au Names",
+    description: "Generate authentic T'au Empire character names for Warhammer 40,000. Create names for Fire Warriors, Ethereals, and more with proper caste and rank conventions.",
+  },
 };
 
 export default function Layout({

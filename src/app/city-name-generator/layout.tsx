@@ -4,6 +4,21 @@ export const metadata: Metadata = {
   title: "City Name Generator",
   description: "Generate authentic city names for your stories, maps, or world-building. Choose styles that bring your fictional cities to life!",
   keywords: "",
+  alternates: {
+    canonical: "/city-name-generator",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "NameGeno",
+    url: "/city-name-generator",
+    title: "City Name Generator",
+    description: "Generate authentic city names for your stories, maps, or world-building. Choose styles that bring your fictional cities to life!",
+  },
+  twitter: {
+    card: "summary",
+    title: "City Name Generator",
+    description: "Generate authentic city names for your stories, maps, or world-building. Choose styles that bring your fictional cities to life!",
+  },
 };
 
 export default function Layout({
