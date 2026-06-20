@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Band Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Band Name Generator",
+          path: "/band-name-generator",
+          description: "Generate cool, original band names for rock, metal, indie, punk and more. Find the perfect name for your new band in seconds.",
+        })}
+      />
+    </>
+  );
 }

@@ -4,6 +4,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from '../components/Navbar';
 import GeneratorLinks from '../components/GeneratorLinks';
+import JsonLd from '../components/JsonLd';
+import { siteSchema } from '../lib/structuredData';
 import Script from 'next/script';
 
 const geistSans = localFont({
@@ -60,6 +62,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <JsonLd data={siteSchema()} />
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SSKKQH05XJ"

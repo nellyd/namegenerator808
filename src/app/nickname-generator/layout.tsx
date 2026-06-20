@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Nickname Generator | Create Cool Unique Nicknames",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Nickname Generator | Create Cool Unique Nicknames",
+          path: "/nickname-generator",
+          description: "Generate unique and creative nicknames for gaming, social media, or any online presence. Customize your perfect nickname with our easy-to-use generator.",
+        })}
+      />
+    </>
+  );
 }

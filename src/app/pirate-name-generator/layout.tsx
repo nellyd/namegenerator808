@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Pirate Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Pirate Name Generator",
+          path: "/pirate-name-generator",
+          description: "Generate authentic pirate names for your characters, games or crew. Find a fearsome pirate name fit for the high seas.",
+        })}
+      />
+    </>
+  );
 }

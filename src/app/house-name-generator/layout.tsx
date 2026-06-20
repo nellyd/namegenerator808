@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "House Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "House Name Generator",
+          path: "/house-name-generator",
+          description: "Generate distinctive house names for stories, estates, or fantasy worlds. Choose from classic, noble, or mystical options to fit any setting.",
+        })}
+      />
+    </>
+  );
 }

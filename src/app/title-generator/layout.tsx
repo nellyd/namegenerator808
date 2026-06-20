@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Title Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Title Name Generator",
+          path: "/title-generator",
+          description: "Generate captivating titles for books, articles, or projects. Explore various styles to find a title that grabs attention and sets the tone.",
+        })}
+      />
+    </>
+  );
 }

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Instagram Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Instagram Name Generator",
+          path: "/instagram-name-generator",
+          description: "Find the perfect Instagram username to stand out. Generate creative, catchy or stylish usernames to suit any vibe or niche.",
+        })}
+      />
+    </>
+  );
 }

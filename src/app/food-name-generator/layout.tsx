@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Food Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Food Name Generator",
+          path: "/food-name-generator",
+          description: "Create fun and catchy names for dishes, restaurants, or food brands. Explore delicious options perfect for any culinary creation.",
+        })}
+      />
+    </>
+  );
 }

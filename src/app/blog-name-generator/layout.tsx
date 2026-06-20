@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Blog Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Blog Name Generator",
+          path: "/blog-name-generator",
+          description: "Find a catchy, memorable blog name for any niche. Generate creative blog name ideas instantly to launch your website or newsletter.",
+        })}
+      />
+    </>
+  );
 }

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Dragon Ball Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Dragon Ball Name Generator",
+          path: "/dragon-ball-name-generator",
+          description: "Create powerful and unique Dragon Ball-inspired names. Find the ideal name for Saiyans, Namekians, or any character in the Dragon Ball universe!",
+        })}
+      />
+    </>
+  );
 }

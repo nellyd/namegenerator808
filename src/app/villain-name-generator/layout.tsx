@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Villain Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Villain Name Generator",
+          path: "/villain-name-generator",
+          description: "Craft the ultimate villain name for your stories or games. Choose from dark, mysterious, or powerful styles to bring your antagonist to life!",
+        })}
+      />
+    </>
+  );
 }

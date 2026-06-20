@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Team Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Team Name Generator",
+          path: "/team-name-generator",
+          description: "Create unique team names for any occasion, sports, work, or fun! Choose from themes and styles to find a name that unites and inspires.",
+        })}
+      />
+    </>
+  );
 }

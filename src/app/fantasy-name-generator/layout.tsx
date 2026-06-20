@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Fantasy Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Fantasy Name Generator",
+          path: "/fantasy-name-generator",
+          description: "Generate magical and unique names for your fantasy worlds, characters, and creatures. Choose from a variety of mystical styles and themes.",
+        })}
+      />
+    </>
+  );
 }

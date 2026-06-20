@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Cat Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Cat Name Generator",
+          path: "/cat-name-generator",
+          description: "Find the purrfect name for your feline friend! Generate cute, clever, or classic cat names that match your kitty’s personality.",
+        })}
+      />
+    </>
+  );
 }

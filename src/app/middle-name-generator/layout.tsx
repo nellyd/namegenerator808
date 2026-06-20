@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Middle Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Middle Name Generator",
+          path: "/middle-name-generator",
+          description: "Add the perfect middle name to any first and last name combination. Generate names that add depth and flow to the full name.",
+        })}
+      />
+    </>
+  );
 }

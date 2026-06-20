@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Pen Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Pen Name Generator",
+          path: "/pen-name-generator",
+          description: "Create the perfect pen name for authors and writers. Generate believable, professional pseudonyms to publish under in any genre.",
+        })}
+      />
+    </>
+  );
 }

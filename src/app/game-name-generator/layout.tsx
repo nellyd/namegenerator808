@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Game Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Game Name Generator",
+          path: "/game-name-generator",
+          description: "Generate unique game names for any genre. Choose from a variety of styles to create a name that captures the spirit of your game.",
+        })}
+      />
+    </>
+  );
 }

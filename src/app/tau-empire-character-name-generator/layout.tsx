@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "T'au Empire Name Generator | Create Warhammer 40k T'au Names",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "T'au Empire Name Generator | Create Warhammer 40k T'au Names",
+          path: "/tau-empire-character-name-generator",
+          description: "Generate authentic T'au Empire character names for Warhammer 40,000. Create names for Fire Warriors, Ethereals, and more with proper caste and rank conventions.",
+        })}
+      />
+    </>
+  );
 }

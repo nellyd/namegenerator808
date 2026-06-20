@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Boy Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Boy Name Generator",
+          path: "/boy-name-generator",
+          description: "Discover strong, unique boy names for babies, characters or stories. Generate boy name ideas with meanings in one click.",
+        })}
+      />
+    </>
+  );
 }

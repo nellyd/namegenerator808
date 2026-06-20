@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Business Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Business Name Generator",
+          path: "/business-name-generator",
+          description: "Generate professional, brandable business name ideas for startups, shops and side projects. Find a name that stands out.",
+        })}
+      />
+    </>
+  );
 }

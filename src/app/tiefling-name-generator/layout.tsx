@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Tiefling Name Generator – Infernal & Virtue Names for D&D",
@@ -30,5 +32,16 @@ export const metadata: Metadata = {
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Tiefling Name Generator – Infernal & Virtue Names for D&D",
+          path: "/tiefling-name-generator",
+          description: "Generate authentic Tiefling names inspired by D&D lore. Pick Infernal, Virtue, or Human-raised names with tone and length controls.",
+        })}
+      />
+    </>
+  );
 }

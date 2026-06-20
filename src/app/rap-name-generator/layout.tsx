@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Rapper Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Rapper Name Generator",
+          path: "/rap-name-generator",
+          description: "Create a standout rapper name for your hip hop persona, stage act or gaming profile. Generate cool rap names in one click.",
+        })}
+      />
+    </>
+  );
 }

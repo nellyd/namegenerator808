@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Warhammer Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Warhammer Name Generator",
+          path: "/warhammer-name-generator",
+          description: "Generate epic Warhammer names for your characters and armies. Choose fierce and legendary names to build the perfect identity in the Warhammer universe!",
+        })}
+      />
+    </>
+  );
 }

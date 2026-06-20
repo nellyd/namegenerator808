@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Twin Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Twin Name Generator",
+          path: "/twin-name-generator",
+          description: "Find perfectly matched names for twins with our Twin Name Generator! Choose complementary styles to create names that pair beautifully.",
+        })}
+      />
+    </>
+  );
 }

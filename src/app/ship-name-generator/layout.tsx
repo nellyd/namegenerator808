@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Ship Name Generator",
@@ -27,5 +29,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Ship Name Generator",
+          path: "/ship-name-generator",
+          description: "Create unique ship names for your stories, games or world-building. Choose from various styles to name any vessel.",
+        })}
+      />
+    </>
+  );
 }

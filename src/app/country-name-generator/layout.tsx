@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "../../components/JsonLd";
+import { generatorSchema } from "../../lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Country Name Generator",
@@ -26,5 +28,16 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      <JsonLd
+        data={generatorSchema({
+          name: "Country Name Generator",
+          path: "/country-name-generator",
+          description: "Create realistic country names for fantasy worlds, maps, or games. Explore unique options to build immersive and believable nations.",
+        })}
+      />
+    </>
+  );
 }
